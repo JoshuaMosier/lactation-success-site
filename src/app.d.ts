@@ -10,6 +10,5 @@ declare global {
 }
 
 declare module '@vercel/analytics';
-declare module '@vercel/speed-insights/svelte';
 
 export {};

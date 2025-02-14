@@ -1,10 +1,8 @@
 <script lang="ts">
-  import { inject } from '@vercel/analytics';
-  import { SpeedInsights } from '@vercel/speed-insights/svelte';
+  import { dev } from '$app/environment';
+  import { injectAnalytics } from '@vercel/analytics/sveltekit';
   
-  // Initialize analytics
-  inject();
+  injectAnalytics({ mode: dev ? 'development' : 'production' });
 </script>
 
-<slot />
-<SpeedInsights /> 
+<slot /> 
