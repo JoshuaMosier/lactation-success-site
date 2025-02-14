@@ -6,7 +6,7 @@
   <div class="content-wrapper">
     <div class="image-container">
       <img 
-        src="{base}/landing-stock-photo.jpg" 
+        src="{base}/landing-stock-photo.jpeg" 
         alt="Mother and baby breastfeeding illustration"
         class="landing-image"
       />
