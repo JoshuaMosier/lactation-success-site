@@ -76,7 +76,7 @@
 
       <!-- Service Card 3 -->
       <div class="bg-white rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-blue-50 flex flex-col">
-        <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">Virtual Consultations</h3>
+        <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">Teleheatlh Connsultations</h3>
         <p class="mt-4 text-gray-600 leading-relaxed">Get expert advice and support from anywhere with convenient online consultation options.</p>
       </div>
     </div>
@@ -107,7 +107,7 @@
 
       <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-blue-950 font-semibold">Flexible Support Options</h3>
-        <p class="mt-4 text-blue-900 leading-relaxed">Choose from in-home visits, virtual consultations, or prenatal education to fit your schedule and comfort level.</p>
+        <p class="mt-4 text-blue-900 leading-relaxed">Choose from in-home visits, telehealth consultations, or prenatal education to fit your schedule and comfort level.</p>
       </div>
 
       <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">

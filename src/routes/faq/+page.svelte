@@ -22,7 +22,7 @@
     },
     {
       question: "What areas do you serve?",
-      answer: "I currently cover a 25 mile radius from Falls Church, Virginia. Virtual consultations are available to families anywhere in Virginia and DC."
+      answer: "I currently cover a 25 mile radius from Falls Church, Virginia. Teleheatlh consultations are available to families anywhere in Virginia and DC."
     },
     {
       question: "Do you charge for travel?",
@@ -46,7 +46,7 @@
     },
     {
       question: "How long does a consultation last?",
-      answer: "Initial consultations typically last 90-120 minutes to allow time for a thorough assessment and care plan development. Follow-up visits are usually 60-90 minutes. Virtual consultations are typically 60 minutes."
+      answer: "Initial consultations typically last 90-120 minutes to allow time for a thorough assessment and care plan development. Follow-up visits are usually 60-90 minutes. Teleheatlh consultations are typically 60 minutes."
     }
   ];
 </script>
