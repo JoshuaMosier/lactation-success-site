@@ -10,7 +10,7 @@
 <!-- Hero Section -->
 <section class="bg-gradient-to-b from-pink-50 to-white py-24 relative">
   <!-- Logo Overlay -->
-  <div class="absolute top-1/2 -translate-y-1/2 hidden lg:block">
+  <div class="absolute left-16 top-1/2 -translate-y-1/2 hidden lg:block">
     <img src="/images/stock-temp-logo.svg" alt="Lactation Success Logo" class="h-[500px] object-contain opacity-90" />
   </div>
   
@@ -44,7 +44,7 @@
 
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
-          <a href="/contact" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-pink-700 hover:bg-pink-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+          <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-pink-700 hover:bg-pink-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
             Schedule a Consultation
           </a>
         </div>
@@ -124,8 +124,8 @@
           <h2 class="text-3xl font-serif text-white sm:text-4xl">Ready to start your journey?</h2>
           <p class="mt-4 text-xl text-white">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
           <div class="mt-10">
-            <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-pink-900 bg-white hover:bg-pink-50 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
-              Get Started
+            <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-pink-900 bg-white hover:bg-pink-50 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+              Schedule Now
             </a>
           </div>
         </div>

@@ -13,8 +13,32 @@
 
   const faqs = [
     {
+      question: "How do I make an appointment?",
+      answer: "Call or text me at (703) 599-9180. Alternatively, click <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-pink-900 hover:text-pink-700 underline'>here</a> to make your appointment through The Lactation Network."
+    },
+    {
+      question: "Where do you see clients for appointments?",
+      answer: "I see mothers and babies in their homes and virtually via telehealth appointments."
+    },
+    {
+      question: "What areas do you serve?",
+      answer: "I currently cover a 25 mile radius from Falls Church, Virginia. Virtual consultations are available to families anywhere in Virginia and DC."
+    },
+    {
+      question: "Do you charge for travel?",
+      answer: "No, I do not."
+    },
+    {
+      question: "What should I prepare for the consultation?",
+      answer: "Try to time baby's feeding so that he or she is hungry at the appointment time. I'll want to assess a feed and offer advice. Prepare any questions you may have so I can address any issues. Feel free to have a support person be part of the consultation. Please be sure that any dogs are away during the appointment."
+    },
+    {
+      question: "Do you take insurance?",
+      answer: "Yes, I work with The Lactation Network who process insurance inquiries for lactation consultants. Click on this link for more information and to see if your insurance is covered."
+    },
+    {
       question: "When should I schedule a lactation consultation?",
-      answer: "It's beneficial to schedule a consultation before your baby arrives to prepare for breastfeeding. However, many families seek support in the first few days or weeks after birth, especially if they're experiencing challenges with latch, milk supply, or pain. We're here to help at any stage of your journey."
+      answer: "It's beneficial to schedule a consultation before your baby arrives to prepare for breastfeeding. However, many families seek support in the first few days or weeks after birth, especially if they're experiencing challenges with latch, milk supply, or pain.  here to help at any stage of your journey."
     },
     {
       question: "What happens during a consultation?",
@@ -25,24 +49,8 @@
       answer: "Initial consultations typically last 90-120 minutes to allow time for a thorough assessment and care plan development. Follow-up visits are usually 60-90 minutes. Virtual consultations are typically 60 minutes."
     },
     {
-      question: "Do you offer virtual consultations?",
-      answer: "Yes, we offer secure video consultations for follow-up care and minor concerns. While in-person visits are recommended for initial consultations, virtual support can be very effective for ongoing care and quick questions."
-    },
-    {
-      question: "Is lactation support covered by insurance?",
-      answer: "Many insurance plans cover lactation support services under the Affordable Care Act. We can help you understand your coverage and provide necessary documentation for insurance claims. We also offer self-pay options for families without coverage."
-    },
-    {
-      question: "What areas do you serve?",
-      answer: "We provide in-home consultations throughout Northern Virginia and the DC metropolitan area. Virtual consultations are available to families anywhere in Virginia and DC."
-    },
-    {
       question: "How quickly can I get an appointment?",
       answer: "We understand the time-sensitive nature of breastfeeding challenges and strive to see new clients within 24-48 hours of contact. Emergency appointments may be available for urgent situations."
-    },
-    {
-      question: "What should I prepare for the consultation?",
-      answer: "Try to time the consultation close to when your baby typically feeds. Have any feeding supplies you use ready (pump parts, nipple shields, etc.). Keep a log of feeding times and wet/dirty diapers if possible. Most importantly, don't clean or prepare anything special - we want to see your real feeding environment."
     }
   ];
 </script>
@@ -90,7 +98,7 @@
             </button>
             {#if openQuestions.has(index)}
               <div class="px-6 pb-4">
-                <p class="text-gray-500">{faq.answer}</p>
+                <p class="text-gray-500">{@html faq.answer}</p>
               </div>
             {/if}
           </div>
@@ -101,7 +109,7 @@
       <div class="mt-12 text-center">
         <h2 class="text-2xl font-serif text-gray-900">Still Have Questions?</h2>
         <p class="mt-4 text-gray-500">
-          Don't hesitate to reach out. We're here to help you on your breastfeeding journey.
+          Don't hesitate to reach out. I'm here to help you on your breastfeeding journey.
         </p>
         <div class="mt-8">
           <a href="/contact" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-pink-800">
