@@ -21,7 +21,10 @@
     <div class="flex justify-between h-20">
       <div class="flex items-center">
         <a href="/" class="flex-shrink-0 flex items-center">
-          <span class="text-2xl font-serif text-blue-900">Lactation Success</span>
+          <span class="text-2xl font-medium tracking-tight">
+            <span class="text-blue-900">Lactation</span>
+            <span class="text-blue-700">Success</span>
+          </span>
         </a>
       </div>
       
