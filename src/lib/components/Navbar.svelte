@@ -29,11 +29,11 @@
       </div>
       
       <!-- Desktop menu -->
-      <div class="hidden md:flex items-center space-x-8">
+      <div class="hidden md:flex items-center space-x-10">
         {#each navItems as item}
           <a
             href={item.href}
-            class="text-gray-700 hover:text-pink-900 px-3 py-2 text-sm font-medium transition-colors duration-200 {$page.url.pathname === item.href ? 'text-pink-900 font-semibold' : ''}"
+            class="text-gray-700 hover:text-pink-800 px-4 py-2 text-base font-medium transition-colors duration-200 hover:bg-pink-50 rounded-md {$page.url.pathname === item.href ? 'text-pink-800 bg-pink-50 font-semibold' : ''}"
           >
             {item.label}
           </a>
@@ -80,7 +80,7 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-pink-900 hover:bg-gray-50 {$page.url.pathname === item.href ? 'text-pink-900 bg-gray-50' : ''}"
+            class="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-pink-800 hover:bg-pink-50 transition-colors duration-200 {$page.url.pathname === item.href ? 'text-pink-800 bg-pink-50 font-semibold' : ''}"
           >
             {item.label}
           </a>
@@ -94,5 +94,9 @@
 <div class="h-20"></div>
 
 <style>
-  /* Add any custom styles here */
+  nav {
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.95);
+  }
 </style> 
