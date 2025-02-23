@@ -22,8 +22,8 @@
       <div class="flex items-center">
         <a href="/" class="flex-shrink-0 flex items-center">
           <span class="text-2xl font-medium tracking-tight">
-            <span class="text-blue-900">Lactation</span>
-            <span class="text-blue-700">Success</span>
+            <span class="text-pink-900">Lactation</span>
+            <span class="text-pink-700">Success</span>
           </span>
         </a>
       </div>
@@ -33,7 +33,7 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors duration-200 {$page.url.pathname === item.href ? 'text-blue-900 font-semibold' : ''}"
+            class="text-gray-700 hover:text-pink-900 px-3 py-2 text-sm font-medium transition-colors duration-200 {$page.url.pathname === item.href ? 'text-pink-900 font-semibold' : ''}"
           >
             {item.label}
           </a>
@@ -80,7 +80,7 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-900 hover:bg-gray-50 {$page.url.pathname === item.href ? 'text-blue-900 bg-gray-50' : ''}"
+            class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-pink-900 hover:bg-gray-50 {$page.url.pathname === item.href ? 'text-pink-900 bg-gray-50' : ''}"
           >
             {item.label}
           </a>

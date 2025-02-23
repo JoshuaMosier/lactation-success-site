@@ -22,7 +22,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto">
       <!-- Insurance Overview -->
-      <div class="prose prose-blue mx-auto">
+      <div class="prose prose-pink mx-auto">
         <h2 class="text-2xl font-serif text-gray-900">Coverage for Lactation Services</h2>
         <p class="text-gray-500">
           Under the Affordable Care Act, most insurance plans are required to cover comprehensive lactation support and counseling services. This coverage typically includes:
@@ -69,27 +69,27 @@
         </p>
         <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-500">
           <li class="flex items-center">
-            <span class="text-blue-900 mr-2">•</span>
+            <span class="text-pink-900 mr-2">•</span>
             Aetna
           </li>
           <li class="flex items-center">
-            <span class="text-blue-900 mr-2">•</span>
-            Blue Cross Blue Shield
+            <span class="text-pink-900 mr-2">•</span>
+            pink Cross pink Shield
           </li>
           <li class="flex items-center">
-            <span class="text-blue-900 mr-2">•</span>
+            <span class="text-pink-900 mr-2">•</span>
             Cigna
           </li>
           <li class="flex items-center">
-            <span class="text-blue-900 mr-2">•</span>
+            <span class="text-pink-900 mr-2">•</span>
             United Healthcare
           </li>
           <li class="flex items-center">
-            <span class="text-blue-900 mr-2">•</span>
+            <span class="text-pink-900 mr-2">•</span>
             Kaiser Permanente
           </li>
           <li class="flex items-center">
-            <span class="text-blue-900 mr-2">•</span>
+            <span class="text-pink-900 mr-2">•</span>
             And more...
           </li>
         </ul>
@@ -107,11 +107,11 @@
       <div class="mt-12 text-center">
         <h2 class="text-2xl font-serif text-gray-900">Have Questions?</h2>
         <p class="mt-4 text-gray-500">
-          Contact us to learn more about insurance coverage or to schedule a consultation.
+          Contact Me to learn more about insurance coverage or to schedule a consultation.
         </p>
         <div class="mt-8">
-          <a href="/contact" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900 hover:bg-blue-800">
-            Contact Us
+          <a href="/contact" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-pink-800">
+            Contact Me
           </a>
         </div>
       </div>
