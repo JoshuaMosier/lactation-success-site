@@ -8,11 +8,11 @@
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-gray-50 py-16">
+<section class="bg-gradient-to-b from-pink-50 to-white py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-4xl font-serif text-gray-900">Contact Me</h1>
-      <p class="mt-4 text-lg text-gray-500">I'm dedicated to supporting your breastfeeding journey</p>
+      <h1 class="text-5xl font-serif text-gray-900 mb-6">Contact Me</h1>
+      <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">I'm dedicated to supporting your breastfeeding journey</p>
     </div>
   </div>
 </section>
