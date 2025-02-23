@@ -10,8 +10,8 @@
 <!-- Hero Section -->
 <section class="bg-gradient-to-b from-pink-50 to-white py-24 relative">
   <!-- Logo Overlay -->
-  <div class="absolute left-20 top-1/2 -translate-y-1/2 hidden lg:block">
-    <img src="/images/stock-temp-logo.png" alt="Lactation Success Logo" class="h-[500px] object-contain opacity-90" />
+  <div class="absolute top-1/2 -translate-y-1/2 hidden lg:block">
+    <img src="/images/stock-temp-logo.svg" alt="Lactation Success Logo" class="h-[500px] object-contain opacity-90" />
   </div>
   
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -122,7 +122,7 @@
       <div class="px-8 py-16 sm:px-16 sm:py-20">
         <div class="text-center">
           <h2 class="text-3xl font-serif text-white sm:text-4xl">Ready to start your journey?</h2>
-          <p class="mt-4 text-xl text-pink-100">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
+          <p class="mt-4 text-xl text-white">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
           <div class="mt-10">
             <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-pink-900 bg-white hover:bg-pink-50 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
               Get Started

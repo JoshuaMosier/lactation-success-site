@@ -65,34 +65,41 @@
       <div class="mt-12">
         <h2 class="text-2xl font-serif text-gray-900">Accepted Insurance Plans</h2>
         <p class="mt-4 text-gray-500">
-          We work with most major insurance providers, including:
+          We work with the following insurance providers:
         </p>
         <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-500">
           <li class="flex items-center">
             <span class="text-pink-900 mr-2">•</span>
-            Aetna
+            Blue Cross PPO
           </li>
           <li class="flex items-center">
             <span class="text-pink-900 mr-2">•</span>
-            pink Cross pink Shield
+            Blue Shield PPO
           </li>
           <li class="flex items-center">
             <span class="text-pink-900 mr-2">•</span>
-            Cigna
+            Anthem PPO
           </li>
           <li class="flex items-center">
             <span class="text-pink-900 mr-2">•</span>
-            United Healthcare
+            VA CCN (Veterans Affairs Community Care Network)
           </li>
           <li class="flex items-center">
             <span class="text-pink-900 mr-2">•</span>
-            Kaiser Permanente
+            MultiPlan Network Plans
           </li>
           <li class="flex items-center">
             <span class="text-pink-900 mr-2">•</span>
-            And more...
+            PNOA Network Plans
+          </li>
+          <li class="flex items-center">
+            <span class="text-pink-900 mr-2">•</span>
+            UHC Commercial Plans*
           </li>
         </ul>
+        <p class="mt-4 text-sm text-gray-500 italic">
+          *UHC coverage includes commercial plans in 49 states (Hawaii pending) for in-person consultations only. HMO coverage depends on specific plan benefits.
+        </p>
       </div>
 
       <!-- Self-Pay Options -->
