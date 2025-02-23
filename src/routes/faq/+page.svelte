@@ -14,7 +14,7 @@
   const faqs = [
     {
       question: "How do I make an appointment?",
-      answer: "Call or text me at (703) 599-9180. Alternatively, click <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-pink-900 hover:text-pink-700 underline'>here</a> to make your appointment through The Lactation Network."
+      answer: "Call or text me at (703) 599-9180. Alternatively, click <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-blue-900 hover:text-blue-700 underline'>here</a> to make your appointment through The Lactation Network."
     },
     {
       question: "Where do you see clients for appointments?",
@@ -34,7 +34,7 @@
     },
     {
       question: "Do you take insurance?",
-      answer: "Yes, I work with The Lactation Network who process insurance inquiries for lactation consultants. <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-pink-900 hover:text-pink-700 underline'>Click here</a> for more information and to check if your insurance is covered."
+      answer: "Yes, I work with The Lactation Network who process insurance inquiries for lactation consultants. <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-blue-900 hover:text-blue-700 underline'>Click here</a> for more information and to check if your insurance is covered."
     },
     {
       question: "When should I schedule a lactation consultation?",
@@ -57,7 +57,7 @@
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-gradient-to-b from-pink-50 to-white py-20">
+<section class="bg-gradient-to-b from-blue-50 to-white py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-5xl font-serif text-gray-900 mb-6">Frequently Asked Questions</h1>
@@ -81,11 +81,11 @@
                 <h2 class="text-xl font-semibold text-gray-900">{faq.question}</h2>
                 <span class="ml-6 flex-shrink-0">
                   {#if openQuestions.has(index)}
-                    <svg class="h-6 w-6 text-pink-900" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                     </svg>
                   {:else}
-                    <svg class="h-6 w-6 text-pink-900" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                     </svg>
                   {/if}
@@ -108,7 +108,7 @@
           Don't hesitate to reach out. I'm here to help you on your breastfeeding journey.
         </p>
         <div class="mt-8">
-          <a href="/contact" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-900 hover:bg-pink-800">
+          <a href="/contact" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900 hover:bg-blue-800">
             Contact Me
           </a>
         </div>
