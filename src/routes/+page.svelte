@@ -2,33 +2,123 @@
   import { base } from '$app/paths';
 </script>
 
-<div class="landing-container">
-  <div class="content-wrapper">
-    <div class="image-container">
-      <img 
-        src="{base}/landing-stock-photo.jpeg" 
-        alt="Mother and baby breastfeeding illustration"
-        class="landing-image"
-      />
-    </div>
-    <div class="text-container">
-      <h1>Lactation Success</h1>
-      <div class="coming-soon-wrapper">
-        <h2>Coming Soon</h2>
-        <h3>March 2025</h3>
+<svelte:head>
+  <title>Lactation Success - Professional Breastfeeding Support in Northern Virginia & DC</title>
+  <meta name="description" content="Professional lactation consulting services in Northern Virginia and DC area. Develop a predictable feeding routine and bond with your baby." />
+</svelte:head>
+
+<!-- Hero Section -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h1 class="text-4xl tracking-tight font-serif text-gray-900 sm:text-5xl md:text-6xl">
+        <span class="block">Develop a predictable</span>
+        <span class="block text-blue-900">feeding routine</span>
+      </h1>
+      <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        Hi, I'm Carolyn, a Northern Virginia & DC lactation consultant helping mamas create an intimate bonding experience rather than another hurdle to overcome.
+      </p>
+      <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+        <div class="rounded-md shadow">
+          <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900 hover:bg-blue-800 md:py-4 md:text-lg md:px-10">
+            Schedule a Consultation
+          </a>
+        </div>
       </div>
-      <p class="support-text">In home and virtual breastfeeding support</p>
-      <p class="credentials">by Carolyn Mosier APRN, IBCLC, RLC</p>
     </div>
   </div>
-</div>
+</section>
+
+<!-- Services Overview -->
+<section class="py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-serif text-gray-900">How I Can Help</h2>
+      <p class="mt-4 text-lg text-gray-500">Personalized support for your breastfeeding journey</p>
+    </div>
+    
+    <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Service Card 1 -->
+      <div class="bg-white shadow-sm rounded-lg p-6">
+        <h3 class="text-xl font-semibold text-gray-900">Prenatal Consultations</h3>
+        <p class="mt-2 text-gray-500">Prepare for successful breastfeeding before your baby arrives with personalized guidance and education.</p>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="bg-white shadow-sm rounded-lg p-6">
+        <h3 class="text-xl font-semibold text-gray-900">In-Home Support</h3>
+        <p class="mt-2 text-gray-500">Receive hands-on support and guidance in the comfort of your own home during those crucial early weeks.</p>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="bg-white shadow-sm rounded-lg p-6">
+        <h3 class="text-xl font-semibold text-gray-900">Virtual Consultations</h3>
+        <p class="mt-2 text-gray-500">Get expert advice and support from anywhere with convenient online consultation options.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Section -->
+<section class="bg-gray-50 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-serif text-gray-900">Why Choose Lactation Success</h2>
+      <p class="mt-4 text-lg text-gray-500">Every woman and baby's feeding journey is personal. I'm here to give you the confidence and guidance to find joy in that journey.</p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2">
+      <div class="flex items-start">
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-900">Personalized Approach</h3>
+          <p class="mt-2 text-gray-500">Every mother and baby pair is unique. I provide customized support tailored to your specific needs and goals.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-900">Evidence-Based Care</h3>
+          <p class="mt-2 text-gray-500">As an IBCLC certified consultant, I provide up-to-date, research-based guidance you can trust.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-900">Flexible Support Options</h3>
+          <p class="mt-2 text-gray-500">Choose from in-home visits, virtual consultations, or prenatal education to fit your schedule and comfort level.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-900">Insurance Accepted</h3>
+          <p class="mt-2 text-gray-500">Many insurance plans cover lactation services. We'll help you understand your coverage and benefits.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-blue-900 rounded-lg shadow-xl overflow-hidden">
+      <div class="px-6 py-12 sm:px-12 sm:py-16">
+        <div class="text-center">
+          <h2 class="text-3xl font-serif text-white">Ready to start your journey?</h2>
+          <p class="mt-4 text-lg text-blue-100">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
+          <div class="mt-8">
+            <a href="/contact" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <style>
-  @font-face {
-    font-family: 'Cavolini';
-    src: url('/fonts/Cavolini.ttf') format('truetype');
-  }
-
   .landing-container {
     width: 100%;
     min-height: 100vh;
@@ -67,10 +157,10 @@
   }
 
   h1 {
-    font-family: 'Cavolini', sans-serif;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
     font-size: 3.5rem;
     margin: 0 0 20px 0;
-    letter-spacing: 1px;
+    letter-spacing: -0.025em;
   }
 
   .coming-soon-wrapper {
@@ -83,21 +173,21 @@
   }
 
   h2 {
-    font-family: 'Cavolini', sans-serif;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
     font-size: 2.8rem;
     margin: 0;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: -0.025em;
   }
 
   h3 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     font-size: 2.2rem;
     font-weight: 300;
     margin: 5px 0 0 0;
     color: #ffffff;
-    letter-spacing: 3px;
+    letter-spacing: 0.025em;
   }
 
   .support-text {
