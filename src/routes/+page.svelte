@@ -24,7 +24,7 @@
       
       <!-- Profile Card -->
       <div class="mt-12 flex flex-col items-center">
-        <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
+        <div class="w-32 h-32 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
           <img src="/images/carolyn-headshot.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
         </div>
         <div class="text-center">
@@ -84,30 +84,33 @@
 </section>
 
 <!-- Why Choose Section -->
-<section class="bg-gradient-to-br from-pink-100 to-pink-200 py-20">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="py-20 relative bg-cover bg-center" style="background-image: url('/images/stock-babies.jpeg')">
+  <!-- Semi-transparent overlay -->
+  <div class="absolute inset-0 bg-pink-100/70 backdrop-blur-sm"></div>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
     <div class="text-center">
       <h2 class="text-3xl font-serif text-pink-950 sm:text-4xl">Why Choose Lactation Success</h2>
       <p class="mt-4 text-xl text-pink-900 max-w-3xl mx-auto">Every woman and baby's feeding journey is personal. I'm here to give you the confidence and guidance to find joy in that journey.</p>
     </div>
 
     <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2">
-      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-pink-950 font-semibold">Personalized Approach</h3>
         <p class="mt-4 text-pink-900 leading-relaxed">Every mother and baby pair is unique. I provide customized support tailored to your specific needs and goals.</p>
       </div>
 
-      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-pink-950 font-semibold">Evidence-Based Care</h3>
         <p class="mt-4 text-pink-900 leading-relaxed">As an IBCLC certified consultant, I provide up-to-date, research-based guidance you can trust.</p>
       </div>
 
-      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-pink-950 font-semibold">Flexible Support Options</h3>
         <p class="mt-4 text-pink-900 leading-relaxed">Choose from in-home visits, virtual consultations, or prenatal education to fit your schedule and comfort level.</p>
       </div>
 
-      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-pink-950 font-semibold">Insurance Accepted</h3>
         <p class="mt-4 text-pink-900 leading-relaxed">Many insurance plans cover lactation services. We'll help you understand your coverage and benefits.</p>
       </div>
@@ -118,13 +121,13 @@
 <!-- CTA Section -->
 <section class="py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="bg-gradient-to-r from-pink-400 to-pink-300 rounded-2xl shadow-xl overflow-hidden">
+    <div class="bg-pink-50 rounded-2xl shadow-soft overflow-hidden border border-pink-100">
       <div class="px-8 py-16 sm:px-16 sm:py-20">
         <div class="text-center">
-          <h2 class="text-3xl font-serif text-white sm:text-4xl">Ready to start your journey?</h2>
-          <p class="mt-4 text-xl text-white">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
+          <h2 class="text-3xl font-serif text-pink-900 sm:text-4xl">Ready to start your journey?</h2>
+          <p class="mt-4 text-xl text-pink-700">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
           <div class="mt-10">
-            <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-pink-900 bg-white hover:bg-pink-50 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+            <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-pink-700 hover:bg-pink-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
               Schedule Now
             </a>
           </div>
