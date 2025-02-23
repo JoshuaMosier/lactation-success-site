@@ -8,19 +8,19 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="bg-gray-50 py-20">
+<section class="bg-gradient-to-b from-blue-50 to-white py-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-4xl tracking-tight font-serif text-gray-900 sm:text-5xl md:text-6xl">
-        <span class="block">Develop a predictable</span>
-        <span class="block text-blue-900">feeding routine</span>
+      <h1 class="text-4xl tracking-tight font-serif sm:text-5xl md:text-6xl">
+        <span class="block text-blue-900">Develop a predictable</span>
+        <span class="block text-blue-700 mt-2">feeding routine</span>
       </h1>
-      <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+      <p class="mt-6 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-8 md:text-2xl md:max-w-3xl leading-relaxed">
         Hi, I'm Carolyn, a Northern Virginia & DC lactation consultant helping mamas create an intimate bonding experience rather than another hurdle to overcome.
       </p>
-      <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-        <div class="rounded-md shadow">
-          <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900 hover:bg-blue-800 md:py-4 md:text-lg md:px-10">
+      <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
+        <div class="rounded-md">
+          <a href="/contact" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
             Schedule a Consultation
           </a>
         </div>
@@ -30,85 +30,77 @@
 </section>
 
 <!-- Services Overview -->
-<section class="py-16">
+<section class="py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-3xl font-serif text-gray-900">How I Can Help</h2>
-      <p class="mt-4 text-lg text-gray-500">Personalized support for your breastfeeding journey</p>
+      <h2 class="text-3xl font-serif text-blue-900 sm:text-4xl">How I Can Help</h2>
+      <p class="mt-4 text-xl text-gray-600">Personalized support for your breastfeeding journey</p>
     </div>
     
-    <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       <!-- Service Card 1 -->
-      <div class="bg-white shadow-sm rounded-lg p-6">
-        <h3 class="text-xl font-semibold text-gray-900">Prenatal Consultations</h3>
-        <p class="mt-2 text-gray-500">Prepare for successful breastfeeding before your baby arrives with personalized guidance and education.</p>
+      <div class="bg-white rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-blue-50 flex flex-col">
+        <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">Prenatal Consultations</h3>
+        <p class="mt-4 text-gray-600 leading-relaxed">Prepare for successful breastfeeding before your baby arrives with personalized guidance and education.</p>
       </div>
 
       <!-- Service Card 2 -->
-      <div class="bg-white shadow-sm rounded-lg p-6">
-        <h3 class="text-xl font-semibold text-gray-900">In-Home Support</h3>
-        <p class="mt-2 text-gray-500">Receive hands-on support and guidance in the comfort of your own home during those crucial early weeks.</p>
+      <div class="bg-white rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-blue-50 flex flex-col">
+        <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">In-Home Support</h3>
+        <p class="mt-4 text-gray-600 leading-relaxed">Receive hands-on support and guidance in the comfort of your own home during those crucial early weeks.</p>
       </div>
 
       <!-- Service Card 3 -->
-      <div class="bg-white shadow-sm rounded-lg p-6">
-        <h3 class="text-xl font-semibold text-gray-900">Virtual Consultations</h3>
-        <p class="mt-2 text-gray-500">Get expert advice and support from anywhere with convenient online consultation options.</p>
+      <div class="bg-white rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-blue-50 flex flex-col">
+        <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">Virtual Consultations</h3>
+        <p class="mt-4 text-gray-600 leading-relaxed">Get expert advice and support from anywhere with convenient online consultation options.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Why Choose Section -->
-<section class="bg-gray-50 py-16">
+<section class="bg-gradient-to-br from-blue-100 to-blue-200 py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-3xl font-serif text-gray-900">Why Choose Lactation Success</h2>
-      <p class="mt-4 text-lg text-gray-500">Every woman and baby's feeding journey is personal. I'm here to give you the confidence and guidance to find joy in that journey.</p>
+      <h2 class="text-3xl font-serif text-blue-950 sm:text-4xl">Why Choose Lactation Success</h2>
+      <p class="mt-4 text-xl text-blue-900 max-w-3xl mx-auto">Every woman and baby's feeding journey is personal. I'm here to give you the confidence and guidance to find joy in that journey.</p>
     </div>
 
-    <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2">
-      <div class="flex items-start">
-        <div class="ml-4">
-          <h3 class="text-lg font-semibold text-gray-900">Personalized Approach</h3>
-          <p class="mt-2 text-gray-500">Every mother and baby pair is unique. I provide customized support tailored to your specific needs and goals.</p>
-        </div>
+    <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2">
+      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+        <h3 class="text-xl font-serif text-blue-950 font-semibold">Personalized Approach</h3>
+        <p class="mt-4 text-blue-900 leading-relaxed">Every mother and baby pair is unique. I provide customized support tailored to your specific needs and goals.</p>
       </div>
 
-      <div class="flex items-start">
-        <div class="ml-4">
-          <h3 class="text-lg font-semibold text-gray-900">Evidence-Based Care</h3>
-          <p class="mt-2 text-gray-500">As an IBCLC certified consultant, I provide up-to-date, research-based guidance you can trust.</p>
-        </div>
+      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+        <h3 class="text-xl font-serif text-blue-950 font-semibold">Evidence-Based Care</h3>
+        <p class="mt-4 text-blue-900 leading-relaxed">As an IBCLC certified consultant, I provide up-to-date, research-based guidance you can trust.</p>
       </div>
 
-      <div class="flex items-start">
-        <div class="ml-4">
-          <h3 class="text-lg font-semibold text-gray-900">Flexible Support Options</h3>
-          <p class="mt-2 text-gray-500">Choose from in-home visits, virtual consultations, or prenatal education to fit your schedule and comfort level.</p>
-        </div>
+      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+        <h3 class="text-xl font-serif text-blue-950 font-semibold">Flexible Support Options</h3>
+        <p class="mt-4 text-blue-900 leading-relaxed">Choose from in-home visits, virtual consultations, or prenatal education to fit your schedule and comfort level.</p>
       </div>
 
-      <div class="flex items-start">
-        <div class="ml-4">
-          <h3 class="text-lg font-semibold text-gray-900">Insurance Accepted</h3>
-          <p class="mt-2 text-gray-500">Many insurance plans cover lactation services. We'll help you understand your coverage and benefits.</p>
-        </div>
+      <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+        <h3 class="text-xl font-serif text-blue-950 font-semibold">Insurance Accepted</h3>
+        <p class="mt-4 text-blue-900 leading-relaxed">Many insurance plans cover lactation services. We'll help you understand your coverage and benefits.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CTA Section -->
-<section class="py-16">
+<section class="py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="bg-blue-900 rounded-lg shadow-xl overflow-hidden">
-      <div class="px-6 py-12 sm:px-12 sm:py-16">
+    <div class="bg-gradient-to-r from-blue-900 to-blue-800 rounded-2xl shadow-xl overflow-hidden">
+      <div class="px-8 py-16 sm:px-16 sm:py-20">
         <div class="text-center">
-          <h2 class="text-3xl font-serif text-white">Ready to start your journey?</h2>
-          <p class="mt-4 text-lg text-blue-100">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
-          <div class="mt-8">
-            <a href="/contact" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+          <h2 class="text-3xl font-serif text-white sm:text-4xl">Ready to start your journey?</h2>
+          <p class="mt-4 text-xl text-blue-100">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
+          <div class="mt-10">
+            <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-blue-900 bg-white hover:bg-blue-50 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
               Get Started
             </a>
           </div>
@@ -176,7 +168,6 @@
     font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
     font-size: 2.8rem;
     margin: 0;
-    color: white;
     text-transform: uppercase;
     letter-spacing: -0.025em;
   }
@@ -186,7 +177,6 @@
     font-size: 2.2rem;
     font-weight: 300;
     margin: 5px 0 0 0;
-    color: #ffffff;
     letter-spacing: 0.025em;
   }
 
