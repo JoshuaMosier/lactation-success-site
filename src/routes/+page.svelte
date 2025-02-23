@@ -12,12 +12,31 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-4xl tracking-tight font-serif sm:text-5xl md:text-6xl">
-        <span class="block text-blue-900">Develop a predictable</span>
-        <span class="block text-blue-700 mt-2">feeding routine</span>
+        <span class="block text-blue-900">Professional in-home and</span>
+        <span class="block text-blue-700 mt-2">telehealth breastfeeding support</span>
+        <span class="block text-blue-900 mt-2">for moms and babies</span>
       </h1>
-      <p class="mt-6 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-8 md:text-2xl md:max-w-3xl leading-relaxed">
-        Hi, I'm Carolyn, a Northern Virginia & DC lactation consultant helping mamas create an intimate bonding experience rather than another hurdle to overcome.
-      </p>
+      
+      <!-- Profile Card -->
+      <div class="mt-12 flex flex-col items-center">
+        <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
+          <img src="/images/carolyn-headshot.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-center">
+          <h2 class="text-2xl font-serif text-blue-900 mb-2">Carolyn Mosier</h2>
+          <div class="flex items-center justify-center space-x-2 text-blue-700 font-medium">
+            <span>APRN</span>
+            <span class="text-blue-300">•</span>
+            <span>IBCLC</span>
+            <span class="text-blue-300">•</span>
+            <span>RLC</span>
+          </div>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            Helping Northern Virginia & DC area families create intimate bonding experiences through expert lactation support.
+          </p>
+        </div>
+      </div>
+
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
           <a href="/contact" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
