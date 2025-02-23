@@ -26,19 +26,19 @@
     },
     {
       question: "Do you charge for travel?",
-      answer: "No, I do not."
+      answer: "No, I do not charge any additional fees for travel within my service area."
     },
     {
       question: "What should I prepare for the consultation?",
-      answer: "Try to time baby's feeding so that he or she is hungry at the appointment time. I'll want to assess a feed and offer advice. Prepare any questions you may have so I can address any issues. Feel free to have a support person be part of the consultation. Please be sure that any dogs are away during the appointment."
+      answer: "Try to time baby's feeding so that they are hungry at the appointment time. I'll want to assess a feed and offer advice. Prepare any questions you may have so I can address any issues. Feel free to have a support person be part of the consultation. Please be sure that any dogs are secured in another room during the appointment."
     },
     {
       question: "Do you take insurance?",
-      answer: "Yes, I work with The Lactation Network who process insurance inquiries for lactation consultants. Click on this link for more information and to see if your insurance is covered."
+      answer: "Yes, I work with The Lactation Network who process insurance inquiries for lactation consultants. <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-pink-900 hover:text-pink-700 underline'>Click here</a> for more information and to check if your insurance is covered."
     },
     {
       question: "When should I schedule a lactation consultation?",
-      answer: "It's beneficial to schedule a consultation before your baby arrives to prepare for breastfeeding. However, many families seek support in the first few days or weeks after birth, especially if they're experiencing challenges with latch, milk supply, or pain.  here to help at any stage of your journey."
+      answer: "It's beneficial to schedule a consultation before your baby arrives to prepare for breastfeeding. However, many families seek support in the first few days or weeks after birth, especially if they're experiencing challenges with latch, milk supply, or pain. I'm here to help at any stage of your journey."
     },
     {
       question: "What happens during a consultation?",
@@ -47,10 +47,6 @@
     {
       question: "How long does a consultation last?",
       answer: "Initial consultations typically last 90-120 minutes to allow time for a thorough assessment and care plan development. Follow-up visits are usually 60-90 minutes. Virtual consultations are typically 60 minutes."
-    },
-    {
-      question: "How quickly can I get an appointment?",
-      answer: "We understand the time-sensitive nature of breastfeeding challenges and strive to see new clients within 24-48 hours of contact. Emergency appointments may be available for urgent situations."
     }
   ];
 </script>
@@ -61,11 +57,11 @@
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-gray-50 py-16">
+<section class="bg-gradient-to-b from-pink-50 to-white py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-4xl font-serif text-gray-900">Frequently Asked Questions</h1>
-      <p class="mt-4 text-lg text-gray-500">Find answers to common questions about our services</p>
+      <h1 class="text-5xl font-serif text-gray-900 mb-6">Frequently Asked Questions</h1>
+      <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">Find answers to common questions about our services</p>
     </div>
   </div>
 </section>
@@ -74,22 +70,22 @@
 <section class="py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto">
-      <div class="space-y-6">
+      <div class="space-y-8">
         {#each faqs as faq, index}
-          <div class="bg-white rounded-lg shadow-sm">
+          <div class="bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-200">
             <button
-              class="w-full px-6 py-4 text-left focus:outline-none"
+              class="w-full px-8 py-6 text-left focus:outline-none"
               on:click={() => toggleQuestion(index)}
             >
               <div class="flex items-center justify-between">
-                <h2 class="text-lg font-semibold text-gray-900">{faq.question}</h2>
+                <h2 class="text-xl font-semibold text-gray-900">{faq.question}</h2>
                 <span class="ml-6 flex-shrink-0">
                   {#if openQuestions.has(index)}
-                    <svg class="h-5 w-5 text-pink-900" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="h-6 w-6 text-pink-900" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                     </svg>
                   {:else}
-                    <svg class="h-5 w-5 text-pink-900" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="h-6 w-6 text-pink-900" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                     </svg>
                   {/if}
@@ -97,8 +93,8 @@
               </div>
             </button>
             {#if openQuestions.has(index)}
-              <div class="px-6 pb-4">
-                <p class="text-gray-500">{@html faq.answer}</p>
+              <div class="px-8 pb-6">
+                <p class="text-lg text-gray-600">{@html faq.answer}</p>
               </div>
             {/if}
           </div>
