@@ -29,6 +29,7 @@
 		"@vercel/analytics": "^1.5.0"
 	},
 	"optionalDependencies": {
-		"@rollup/rollup-linux-x64-gnu": "latest"
+		"@rollup/rollup-linux-x64-gnu": "latest",
+    	"@esbuild/linux-x64": "latest"
 	}
 }
