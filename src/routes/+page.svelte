@@ -112,7 +112,7 @@
 
       <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-blue-950 font-semibold">Insurance Accepted</h3>
-        <p class="mt-4 text-blue-900 leading-relaxed">Many insurance plans cover lactation services. We'll help you understand your coverage and benefits.</p>
+        <p class="mt-4 text-blue-900 leading-relaxed">Many insurance plans cover lactation services. I'll help you understand your coverage and benefits.</p>
       </div>
     </div>
   </div>
