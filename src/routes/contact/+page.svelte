@@ -57,7 +57,7 @@
           <div class="text-center mb-8 pb-6 border-b border-blue-100">
             <div class="w-48 h-48 rounded-xl overflow-hidden border-4 border-white shadow-lg mb-6 mx-auto">
               <img
-                src="/images/carolyn-headshot.jpg"
+                src="/images/carolyn-headshot2.jpg"
                 alt="Carolyn Mosier, IBCLC"
                 class="w-full h-full object-cover"
               />

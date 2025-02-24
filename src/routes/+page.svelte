@@ -25,7 +25,7 @@
       <!-- Profile Card -->
       <div class="mt-12 flex flex-col items-center">
         <div class="w-32 h-32 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
-          <img src="/images/carolyn-headshot.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
+          <img src="/images/carolyn-headshot2.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
         </div>
         <div class="text-center">
           <h2 class="text-2xl text-blue-900 mb-2">Carolyn Mosier</h2>
