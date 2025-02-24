@@ -14,7 +14,7 @@
   const faqs = [
     {
       question: "How do I make an appointment?",
-      answer: "Call or text me at (703) 599-9180. Alternatively, click <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-blue-900 hover:text-blue-700 underline'>here</a> to make your appointment through The Lactation Network."
+      answer: "Call or text me at (703)-599-9180. Alternatively, click <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-blue-900 hover:text-blue-700 underline'>here</a> to make your appointment through The Lactation Network."
     },
     {
       question: "Where do you see clients for appointments?",
@@ -22,7 +22,7 @@
     },
     {
       question: "What areas do you serve?",
-      answer: "I currently cover a 25 mile radius from Falls Church, Virginia. Teleheatlh consultations are available to families anywhere in Virginia and DC."
+      answer: "I currently cover a 25 mile radius from Falls Church, Virginia. Teleheatlh consultations are available to families anywhere in the Northern Virginia, Maryland, and DC areas."
     },
     {
       question: "Do you charge for travel?",

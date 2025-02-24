@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>Services - Lactation Success</title>
-  <meta name="description" content="Professional lactation consulting services including prenatal counseling, latch assistance, milk supply management, and support for special situations in Northern Virginia and DC area." />
+  <meta name="description" content="Professional lactation consulting services including prenatal counseling, latch assistance, milk supply management, and support for special situations in Northern Virginia, Maryland, and DC areas." />
 </svelte:head>
 
 <!-- Header -->
@@ -51,11 +51,11 @@
             </li>
             <li class="flex items-start">
               <span class="text-blue-600 mr-3 mt-1">✔</span>
-              <span>Preventing and managing common concerns</span>
+              <span>Preventing and managing common concerns such as slow weight gain and low milk supply</span>
             </li>
             <li class="flex items-start">
               <span class="text-blue-600 mr-3 mt-1">✔</span>
-              <span>Solutions for nipple or breast pain</span>
+              <span>Solutions for nipple or breast pain including nipple shields</span>
             </li>
             <li class="flex items-start">
               <span class="text-blue-600 mr-3 mt-1">✔</span>
@@ -70,7 +70,7 @@
           <ul class="space-y-3 text-gray-600">
             <li class="flex items-start">
               <span class="text-blue-600 mr-3 mt-1">✔</span>
-              <span>Milk expression and storage techniques</span>
+              <span>Milk expression, flange fittings, and milk storage guidelines</span>
             </li>
             <li class="flex items-start">
               <span class="text-blue-600 mr-3 mt-1">✔</span>
@@ -83,6 +83,14 @@
             <li class="flex items-start">
               <span class="text-blue-600 mr-3 mt-1">✔</span>
               <span>Guidance for premature or medically complex infants</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-600 mr-3 mt-1">✔</span>
+              <span>Engorgement  and plugged duct relief</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-600 mr-3 mt-1">✔</span>
+              <span>Signs and symptoms of mastitis and when to see the doctor</span>
             </li>
           </ul>
         </div>
@@ -101,7 +109,7 @@
 
             <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
               <h3 class="text-xl font-serif text-blue-800 mb-3">Virtual Support</h3>
-              <p class="text-gray-600 leading-relaxed">Convenient online consultations for follow-up care and quick questions, accessible from anywhere.</p>
+              <p class="text-gray-600 leading-relaxed">Convenient online consultations for follow-up care and quick questions, from the comfort of your home.</p>
             </div>
 
             <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">

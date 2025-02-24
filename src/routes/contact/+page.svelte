@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>Contact Me - Lactation Success</title>
-  <meta name="description" content="Contact Carolyn Mosier, International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse serving the Northern Virginia and DC area." />
+  <meta name="description" content="Contact Carolyn Mosier, International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse serving the Northern Virginia, Maryland, and DC areas." />
 </svelte:head>
 
 <!-- Header -->
@@ -57,7 +57,7 @@
           <div class="text-center mb-8 pb-6 border-b border-blue-100">
             <div class="w-48 h-48 rounded-xl overflow-hidden border-4 border-white shadow-lg mb-6 mx-auto">
               <img
-                src="/images/carolyn-headshot2.jpg"
+                src="/images/las vegas-cropped.jpg"
                 alt="Carolyn Mosier, IBCLC"
                 class="w-full h-full object-cover"
               />
@@ -107,7 +107,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span class="ml-3 text-gray-600 font-medium">
-                  Serving Northern Virginia & DC Metro Area
+                  Serving Northern Virginia, Maryland, and DC Metro Areas
                 </span>
               </dd>
             </div>

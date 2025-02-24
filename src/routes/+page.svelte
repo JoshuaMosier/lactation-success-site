@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Lactation Success - Professional Breastfeeding Support in Northern Virginia & DC</title>
-  <meta name="description" content="Professional lactation consulting services in Northern Virginia and DC area. Develop a predictable feeding routine and bond with your baby." />
+  <title>Lactation Success - Professional Breastfeeding Support in Northern Virginia, Maryland, and DC</title>
+  <meta name="description" content="Professional lactation consulting services in Northern Virginia, Maryland, and DC areas. Develop a predictable feeding routine and bond with your baby." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -25,11 +25,11 @@
       <!-- Profile Card -->
       <div class="mt-12 flex flex-col items-center">
         <div class="w-32 h-32 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
-          <img src="/images/carolyn-headshot2.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
+          <img src="/images/las vegas-cropped.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
         </div>
         <div class="text-center">
           <h2 class="text-2xl text-blue-900 mb-2">Carolyn Mosier</h2>
-          <div class="flex items-center justify-center space-x-2 text-blue-700 font-medium">
+          <div class="flex items-center justify-center space-x-3 text-blue-700 font-medium text-2xl">
             <span>APRN</span>
             <span class="text-blue-300">•</span>
             <span>IBCLC</span>
@@ -37,7 +37,7 @@
             <span>RLC</span>
           </div>
           <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Helping Northern Virginia & DC area families create intimate bonding experiences through expert lactation support.
+            Helping Northern Virginia, Maryland, and DC area families create successful breastfeeding experiences through expert lactation support.
           </p>
         </div>
       </div>
@@ -71,7 +71,7 @@
       <!-- Service Card 2 -->
       <div class="bg-white rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-blue-50 flex flex-col">
         <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">In-Home Support</h3>
-        <p class="mt-4 text-gray-600 leading-relaxed">Receive hands-on support and guidance in the comfort of your own home during those crucial early weeks.</p>
+        <p class="mt-4 text-gray-600 leading-relaxed">Receive hands-on support and guidance in the comfort of your own home during those crucial early weeks and beyond.</p>
       </div>
 
       <!-- Service Card 3 -->
@@ -107,7 +107,7 @@
 
       <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
         <h3 class="text-xl font-serif text-blue-950 font-semibold">Flexible Support Options</h3>
-        <p class="mt-4 text-blue-900 leading-relaxed">Choose from in-home visits, telehealth consultations, or prenatal education to fit your schedule and comfort level.</p>
+        <p class="mt-4 text-blue-900 leading-relaxed">Choose from prenatal education, in-home visits, or telehealth consultations to fit your schedule and comfort level.</p>
       </div>
 
       <div class="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
