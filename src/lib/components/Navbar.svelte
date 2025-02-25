@@ -1,4 +1,3 @@
-# src/lib/components/Navbar.svelte
 <script lang="ts">
   import { page } from '$app/stores';
   let isMenuOpen = false;
