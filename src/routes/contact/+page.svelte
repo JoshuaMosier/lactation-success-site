@@ -100,10 +100,10 @@
           <h2 class="text-2xl font-serif text-blue-900 mb-6">Professional Background</h2>
           <div class="space-y-4 text-gray-600">
             <p>
-              I am an International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse. With years of experience in various healthcare settings, I bring a comprehensive approach to lactation support.
+              I am an International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse. With years of experience in various healthcare settings, I bring a well-rounded approach to lactation support.
             </p>
             <p>
-              My professional journey includes extensive experience as a NICU nurse, where I provided comprehensive care, including assisting breastfeeding mothers. More recently, I've focused on providing comprehensive lactation support across different stages - from prenatal preparation through postpartum care, in both inpatient and outpatient settings.
+              My professional journey includes extensive experience as a NICU nurse, where I provided comprehensive care, including assisting breastfeeding mothers. More recently, I've focused on providing skilled lactation support across different stages - from prenatal preparation through postpartum care, in both inpatient and outpatient settings.
             </p>
           </div>
         </div>
