@@ -52,15 +52,17 @@
 </script>
 
 <svelte:head>
-  <title>Frequently Asked Questions - Lactation Success</title>
+  <title>Frequently Asked Questions - Lactation Success LLC</title>
   <meta name="description" content="Find answers to common questions about lactation consulting services, insurance coverage, and what to expect during consultations." />
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-gradient-to-b from-blue-50 to-white py-20">
+<section class="bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), url('/images/stock-sleeping-baby.jpeg');">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-5xl font-serif text-gray-900 mb-6">Frequently Asked Questions</h1>
+      <h1 class="text-4xl font-serif text-blue-900 sm:text-5xl md:text-6xl">
+        <span class="block">Frequently Asked Questions</span>
+      </h1>
       <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">Find answers to common questions about our services</p>
     </div>
   </div>

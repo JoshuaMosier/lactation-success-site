@@ -25,9 +25,10 @@
     <div class="flex justify-between h-20">
       <div class="flex items-center">
         <a href="/" class="flex-shrink-0 flex items-center">
-          <span class="text-2xl font-medium tracking-tight">
+          <span class="text-3xl md:text-4xl font-medium tracking-tight">
             <span class="text-blue-900">Lactation</span>
             <span class="text-blue-700">Success</span>
+            <span class="text-blue-700 xs:inline">LLC</span>
           </span>
         </a>
       </div>
@@ -37,7 +38,7 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="text-gray-700 hover:text-blue-800 px-4 py-2 text-base font-medium transition-colors duration-200 hover:bg-blue-50 rounded-md {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
+            class="text-gray-700 hover:text-blue-800 px-4 py-2 text-lg font-medium transition-colors duration-200 hover:bg-blue-50 rounded-md {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
           >
             {item.label}
           </a>
@@ -45,7 +46,7 @@
       </div>
 
       <!-- Mobile menu button -->
-      <div class="md:hidden flex items-center">
+      <div class="md:hidden flex items-center ml-2">
         <button
           on:click={toggleMenu}
           class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-900 focus:outline-none"
@@ -85,7 +86,7 @@
           <a
             href={item.href}
             on:click={closeMenu}
-            class="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-blue-800 hover:bg-blue-50 transition-colors duration-200 {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
+            class="block px-4 py-3 text-xl font-medium text-gray-700 hover:text-blue-800 hover:bg-blue-50 transition-colors duration-200 {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
           >
             {item.label}
           </a>

@@ -3,15 +3,17 @@
 </script>
 
 <svelte:head>
-  <title>Insurance Coverage - Lactation Success</title>
+  <title>Insurance Coverage - Lactation Success LLC</title>
   <meta name="description" content="Learn about insurance coverage for lactation consulting services. Many insurance plans cover breastfeeding support and lactation consultations." />
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), url('/images/stock-babies.jpeg');">
+<section class="bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), url('/images/stock-babies-crop2.jpeg');">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-5xl font-serif text-gray-900 mb-6">Insurance Coverage</h1>
+      <h1 class="text-4xl font-serif text-blue-900 sm:text-5xl md:text-6xl">
+        <span class="block">Insurance Coverage</span>
+      </h1>
       <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">Understanding your benefits for professional lactation support services to help you on your breastfeeding journey.</p>
     </div>
   </div>

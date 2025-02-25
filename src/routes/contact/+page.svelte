@@ -3,15 +3,17 @@
 </script>
 
 <svelte:head>
-  <title>Contact Me - Lactation Success</title>
+  <title>Contact Me - Lactation Success LLC</title>
   <meta name="description" content="Contact Carolyn Mosier, International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse serving the Northern Virginia, Maryland, and DC areas." />
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-gradient-to-b from-blue-50 to-white py-20">
+<section class="bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.75)), url('/images/peony.jpg');">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-5xl font-serif text-gray-900 mb-6">Contact Me</h1>
+      <h1 class="text-4xl font-serif text-blue-900 sm:text-5xl md:text-6xl">
+        <span class="block">Contact Me</span>
+      </h1>
       <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">I'm dedicated to supporting your breastfeeding journey</p>
     </div>
   </div>
@@ -21,43 +23,14 @@
 <section class="py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <!-- Professional Information -->
-      <div class="space-y-8">
-        <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100">
-          <h2 class="text-2xl font-serif text-blue-900 mb-6">Professional Background</h2>
-          <div class="space-y-4 text-gray-600">
-            <p>
-              I am an International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse. With years of experience in various healthcare settings, I bring a comprehensive approach to lactation support.
-            </p>
-            <p>
-              My professional journey includes extensive experience as a NICU nurse, where I provided comprehensive care, including assisting breastfeeding mothers. More recently, I've focused on providing comprehensive lactation support across different stages - from prenatal preparation through postpartum care, in both inpatient and outpatient settings.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100">
-          <h2 class="text-2xl font-serif text-blue-900 mb-6">My Approach</h2>
-          <p class="text-gray-600">
-            My philosophy centers on meeting mothers and babies where they are and developing strategies that maximize their success. I believe in understanding each mother's unique goals, addressing their specific concerns, and providing supportive guidance throughout their breastfeeding journey.
-          </p>
-        </div>
-
-        <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100">
-          <h2 class="text-2xl font-serif text-blue-900 mb-6">Personal Experience</h2>
-          <p class="text-gray-600">
-            As a mother of four wonderful breastfed children who are now starting families of their own, I understand firsthand the joys and challenges of breastfeeding. My husband and I both served in the United States Navy, giving me unique insight into the challenges faced by busy working active duty families.
-          </p>
-        </div>
-      </div>
-
+      <!-- Contact Information -->
       <div>
-        <!-- Contact Information -->
         <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100 hover:shadow-xl transition-shadow duration-300">
           <!-- Profile Section -->
           <div class="text-center mb-8 pb-6 border-b border-blue-100">
             <div class="w-48 h-48 rounded-xl overflow-hidden border-4 border-white shadow-lg mb-6 mx-auto">
               <img
-                src="/images/las vegas-cropped.jpg"
+                src="/images/mirror-crop.jpg"
                 alt="Carolyn Mosier, IBCLC"
                 class="w-full h-full object-cover"
               />
@@ -118,6 +91,35 @@
               It is a privilege to share my experience and expertise with mothers throughout their breastfeeding journey. Please feel free to reach out to discuss how I can support you in achieving your breastfeeding goals.
             </p>
           </div>
+        </div>
+      </div>
+      
+      <!-- Professional Information -->
+      <div class="space-y-8">
+        <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100">
+          <h2 class="text-2xl font-serif text-blue-900 mb-6">Professional Background</h2>
+          <div class="space-y-4 text-gray-600">
+            <p>
+              I am an International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse. With years of experience in various healthcare settings, I bring a comprehensive approach to lactation support.
+            </p>
+            <p>
+              My professional journey includes extensive experience as a NICU nurse, where I provided comprehensive care, including assisting breastfeeding mothers. More recently, I've focused on providing comprehensive lactation support across different stages - from prenatal preparation through postpartum care, in both inpatient and outpatient settings.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100">
+          <h2 class="text-2xl font-serif text-blue-900 mb-6">My Approach</h2>
+          <p class="text-gray-600">
+            My philosophy centers on meeting mothers and babies where they are and developing strategies that maximize their success. I believe in understanding each mother's unique goals, addressing their specific concerns, and providing supportive guidance throughout their breastfeeding journey.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-8 border border-blue-100">
+          <h2 class="text-2xl font-serif text-blue-900 mb-6">Personal Experience</h2>
+          <p class="text-gray-600">
+            As a mother of four wonderful breastfed children who are now starting families of their own, I understand firsthand the joys and challenges of breastfeeding. My husband and I both served in the United States Navy, giving me unique insight into the challenges faced by busy working active duty families.
+          </p>
         </div>
       </div>
     </div>

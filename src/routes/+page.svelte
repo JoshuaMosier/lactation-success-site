@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Lactation Success - Professional Breastfeeding Support in Northern Virginia, Maryland, and DC</title>
+  <title>Lactation Success LLC - Professional Breastfeeding Support in Northern Virginia, Maryland, and DC</title>
   <meta name="description" content="Professional lactation consulting services in Northern Virginia, Maryland, and DC areas. Develop a predictable feeding routine and bond with your baby." />
 </svelte:head>
 
@@ -11,7 +11,7 @@
 <section class="bg-gradient-to-b from-blue-50 to-white py-24 relative">
   <!-- Logo Overlay -->
   <div class="absolute left-16 top-1/2 -translate-y-1/2 hidden lg:block">
-    <img src="/images/stock-temp-logo-blue.svg" alt="Lactation Success Logo" class="h-[500px] object-contain opacity-90" />
+    <img src="/images/stock-temp-logo-blue.svg" alt="Lactation Success LLC Logo" class="h-[500px] object-contain opacity-90" />
   </div>
   
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,7 +25,7 @@
       <!-- Profile Card -->
       <div class="mt-12 flex flex-col items-center">
         <div class="w-32 h-32 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
-          <img src="/images/las vegas-cropped.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
+          <img src="/images/mirror-crop.jpg" alt="Carolyn Mosier" class="w-full h-full object-cover" />
         </div>
         <div class="text-center">
           <h2 class="text-2xl text-blue-900 mb-2">Carolyn Mosier</h2>
@@ -90,7 +90,7 @@
   
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
     <div class="text-center">
-      <h2 class="text-3xl font-serif text-blue-950 sm:text-4xl">Why Choose Lactation Success</h2>
+      <h2 class="text-3xl font-serif text-blue-950 sm:text-4xl">Why Choose Lactation Success LLC</h2>
       <p class="mt-4 text-xl text-blue-900 max-w-3xl mx-auto">Every woman and baby's feeding journey is personal. I'm here to give you the confidence and guidance to find joy in that journey.</p>
     </div>
 

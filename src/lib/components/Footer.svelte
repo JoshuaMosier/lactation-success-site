@@ -7,7 +7,7 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <!-- Company Info -->
       <div class="col-span-1 md:col-span-2">
-        <h3 class="text-lg font-serif text-blue-900 mb-4">Lactation Success</h3>
+        <h3 class="text-lg font-serif text-blue-900 mb-4">Lactation Success LLC</h3>
         <p class="text-gray-600 mb-4">
           Supporting mothers and babies in Northern Virginia, Maryland, and DC areas with professional lactation consulting services.
         </p>
@@ -49,7 +49,7 @@
     <!-- Bottom Bar -->
     <div class="mt-12 pt-8 border-t border-gray-200">
       <p class="text-center text-gray-500 text-sm">
-        © {currentYear} Lactation Success. All rights reserved.
+        © {currentYear} Lactation Success LLC. All rights reserved.
       </p>
     </div>
   </div>
