@@ -25,7 +25,10 @@
     <div class="max-w-4xl mx-auto">
       <!-- Insurance Overview -->
       <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-12">
-        <h2 class="text-3xl font-serif text-gray-900 mb-6">Coverage through The Lactation Network</h2>
+        <div class="flex items-center mb-6">
+          <h2 class="text-3xl font-serif text-gray-900 flex-grow">Coverage through The Lactation Network</h2>
+          <img src="/images/TLN.svg" alt="The Lactation Network logo" class="w-24 h-24 ml-4" />
+        </div>
         <p class="text-lg text-gray-600 leading-relaxed">
           I have partnered with The Lactation Network (TLN) to provide lactation services covered by many insurance companies. Through TLN, once approved, <span class="font-medium text-blue-900">100% of unlimited lactation visits</span> will be covered as needed through your insurance company.
         </p>
@@ -40,54 +43,84 @@
         <div class="grid md:grid-cols-2 gap-6">
           <ul class="space-y-4">
             <li class="flex items-center bg-blue-50 rounded-lg p-4">
-              <span class="text-blue-900 mr-3">
+              <span class="text-blue-900 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                 </svg>
               </span>
-              <span class="text-gray-700 font-medium">Anthem</span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-14 object-contain" />
+                </div>
+                <span class="text-gray-700 font-medium">Anthem</span>
+              </div>
             </li>
             <li class="flex items-center bg-blue-50 rounded-lg p-4">
-              <span class="text-blue-900 mr-3">
+              <span class="text-blue-900 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                 </svg>
               </span>
-              <span class="text-gray-700 font-medium">Blue Cross PPO</span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-14 object-contain" />
+                </div>
+                <span class="text-gray-700 font-medium">Blue Cross PPO</span>
+              </div>
             </li>
             <li class="flex items-center bg-blue-50 rounded-lg p-4">
-              <span class="text-blue-900 mr-3">
+              <span class="text-blue-900 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                 </svg>
               </span>
-              <span class="text-gray-700 font-medium">Blue Shield PPO (not Federal)</span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-14 object-contain" />
+                </div>
+                <span class="text-gray-700 font-medium">Blue Shield PPO (not Federal)</span>
+              </div>
             </li>
             <li class="flex items-center bg-blue-50 rounded-lg p-4">
-              <span class="text-blue-900 mr-3">
+              <span class="text-blue-900 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                 </svg>
               </span>
-              <span class="text-gray-700 font-medium">Cigna</span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <img src="/images/insurance-logos/cigna.png" alt="Cigna logo" class="max-h-8 max-w-14 object-contain" />
+                </div>
+                <span class="text-gray-700 font-medium">Cigna</span>
+              </div>
             </li>
           </ul>
           <ul class="space-y-4">
             <li class="flex items-center bg-blue-50 rounded-lg p-4">
-              <span class="text-blue-900 mr-3">
+              <span class="text-blue-900 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                 </svg>
               </span>
-              <span class="text-gray-700 font-medium">Veterans Affairs Community Care Network (VA CCN) through Optum Care in Regions 1, 2 and 3, Multiplan</span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-14 object-contain" />
+                </div>
+                <span class="text-gray-700 font-medium">Veterans Affairs Community Care Network (VA CCN) through Optum Care in Regions 1, 2 and 3, Multiplan</span>
+              </div>
             </li>
             <li class="flex items-center bg-blue-50 rounded-lg p-4">
-              <span class="text-blue-900 mr-3">
+              <span class="text-blue-900 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                 </svg>
               </span>
-              <span class="text-gray-700 font-medium">United Healthcare (Commercial UHC plans as well as UMR, All Savers, Oxford Health Plan, and Surest)</span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-8 max-w-14 object-contain" />
+                </div>
+                <span class="text-gray-700 font-medium">United Healthcare (Commercial UHC plans as well as UMR, All Savers, Oxford Health Plan, and Surest)</span>
+              </div>
             </li>
           </ul>
         </div>

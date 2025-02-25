@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- TLN Logo - simplified representation -->
+  <circle cx="100" cy="100" r="80" fill="#f0f9ff" />
+  <path d="M50,70 C50,40 150,40 150,70 L150,130 C150,160 50,160 50,130 Z" fill="#1e3a8a" />
+  <path d="M75,85 C75,70 125,70 125,85 L125,115 C125,130 75,130 75,115 Z" fill="#f0f9ff" />
+  <path d="M68,62 L132,62 C135,62 138,65 138,68 L138,132 C138,135 135,138 132,138 L68,138 C65,138 62,135 62,132 L62,68 C62,65 65,62 68,62 Z" fill="none" stroke="#1e3a8a" stroke-width="2" />
+  <text x="100" y="105" font-family="Arial" font-size="14" fill="#1e3a8a" text-anchor="middle">TLN</text>
+</svg>
