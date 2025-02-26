@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Lactation Success LLC - Professional Breastfeeding Support in Northern Virginia, Maryland, and DC</title>
-  <meta name="description" content="Professional lactation consulting services in Northern Virginia, Maryland, and DC areas. Develop a predictable feeding routine and bond with your baby." />
+  <title>Lactation Success LLC - Professional Breastfeeding Support in the Northern Virginia Area</title>
+  <meta name="description" content="Professional lactation consulting services in the Northern Virginia area. Develop a predictable feeding routine and bond with your baby." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -37,7 +37,7 @@
             <span>RLC</span>
           </div>
           <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Helping Northern Virginia, Maryland, and DC area families create successful breastfeeding experiences through expert lactation support.
+            Helping Northern Virginia area families create successful breastfeeding experiences through expert lactation support.
           </p>
         </div>
       </div>

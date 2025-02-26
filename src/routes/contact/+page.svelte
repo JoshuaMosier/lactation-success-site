@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>Contact Me - Lactation Success LLC</title>
-  <meta name="description" content="Contact Carolyn Mosier, International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse serving the Northern Virginia, Maryland, and DC areas." />
+  <meta name="description" content="Contact Carolyn Mosier, International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse serving the Northern Virginia area." />
 </svelte:head>
 
 <!-- Header -->
@@ -80,7 +80,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span class="ml-3 text-gray-600 font-medium">
-                  Serving Northern Virginia, Maryland, and DC Metro Areas
+                  Currently serving the Northern Virginia area
                 </span>
               </dd>
             </div>

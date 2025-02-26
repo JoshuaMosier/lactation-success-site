@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>Services - Lactation Success LLC</title>
-  <meta name="description" content="Professional lactation consulting services including prenatal counseling, latch assistance, milk supply management, and support for special situations in Northern Virginia, Maryland, and DC areas." />
+  <meta name="description" content="Professional lactation consulting services including prenatal counseling, latch assistance, milk supply management, and support for special situations in Northern Virginia." />
 </svelte:head>
 
 <!-- Header -->
