@@ -31,7 +31,7 @@
       <div>
         <h3 class="text-sm font-semibold text-gray-900 mb-4">Contact</h3>
         <ul class="space-y-3">
-          <li class="text-gray-600">Northern Virginia</li>
+          <li class="text-gray-600">Falls Church, VA</li>
           <li>
             <a href="tel:+17035999180" aria-label="Call us at (703)-599-9180" class="text-gray-600 hover:text-blue-900">
               (703)-599-9180
