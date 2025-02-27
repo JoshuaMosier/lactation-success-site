@@ -17,8 +17,8 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-4xl tracking-tight font-serif sm:text-5xl md:text-6xl">
-        <span class="block text-blue-900">Professional in-home and</span>
-        <span class="block text-blue-700 mt-2">telehealth breastfeeding support</span>
+        <span class="block text-blue-900">Professional <span class="text-blue-700">in-home </span> and </span>
+        <span class="block text-blue-700 mt-2">telehealth <span class="text-blue-900">breastfeeding support<span></span>
         <span class="block text-blue-900 mt-2">for moms and babies</span>
       </h1>
       
@@ -44,7 +44,7 @@
 
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
-          <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+          <a href="/contact" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
             Schedule a Consultation
           </a>
         </div>
@@ -90,8 +90,8 @@
   
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
     <div class="text-center">
-      <h2 class="text-3xl font-serif text-blue-950 sm:text-4xl">Why Choose Lactation Success LLC</h2>
-      <p class="mt-4 text-xl text-blue-900 max-w-3xl mx-auto">Every woman and baby's feeding journey is personal. I'm here to give you the confidence and guidance to find joy in that journey.</p>
+      <h2 class="text-3xl font-serif text-blue-950 sm:text-4xl">Why Choose Lactation Success</h2>
+      <p class="mt-4 text-xl text-blue-900 max-w-2xl mx-auto">Every woman and baby's feeding journey is personal. Breastfeeding can be difficult, but it can get better. I'm here to give you the confidence and guidance to find joy in that journey.</p>
     </div>
 
     <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2">

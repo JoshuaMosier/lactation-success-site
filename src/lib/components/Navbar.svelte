@@ -27,7 +27,6 @@
           <span class="text-3xl md:text-4xl font-medium tracking-tight">
             <span class="text-blue-900">Lactation</span>
             <span class="text-blue-700">Success</span>
-            <span class="text-blue-700 xs:inline">LLC</span>
           </span>
         </a>
       </div>

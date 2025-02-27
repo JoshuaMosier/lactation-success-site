@@ -45,7 +45,7 @@
             </div>
           </div>
 
-          <h2 class="text-2xl font-serif text-gray-900 mb-8 pb-4 border-b border-blue-100">Get in Touch</h2>
+          <h2 class="text-3xl font-serif text-blue-700 mb-8 pb-4 border-b border-blue-100">Schedule a Consultation</h2>
           
           <dl class="space-y-8">
             <div>

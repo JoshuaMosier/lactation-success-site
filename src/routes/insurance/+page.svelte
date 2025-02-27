@@ -29,9 +29,14 @@
           <h2 class="text-3xl font-serif text-gray-900 flex-grow">Coverage through The Lactation Network</h2>
           <img src="/images/TLN.svg" alt="The Lactation Network logo" class="w-24 h-24 ml-4" />
         </div>
-        <p class="text-lg text-gray-600 leading-relaxed">
+        <p class="text-lg text-gray-600 leading-relaxed mb-6">
           I have partnered with The Lactation Network (TLN) to provide lactation services covered by many insurance companies. Through TLN, once approved, <span class="font-medium text-blue-900">100% of unlimited lactation visits</span> will be covered as needed through your insurance company.
         </p>
+        <div class="text-center">
+          <a href="https://go.lactationnetwork.com/LactationSuccessLLC" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+            Check your Insurance
+          </a>
+        </div>
       </div>
 
       <!-- Accepted Insurance -->
