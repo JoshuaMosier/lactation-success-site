@@ -30,7 +30,7 @@
     },
     {
       question: "What should I prepare for the consultation?",
-      answer: "Try to time baby's feeding so that they are hungry at the appointment time. I'll want to assess a feed and offer advice. Prepare any questions you may have so I can address any issues. Feel free to have a support person be part of the consultation. Please be sure that any dogs are secured in another room during the appointment."
+      answer: "Try to time baby's feeding so that they are hungry at the appointment time. I'll want to assess a feed and offer advice. Prepare any questions you may have so I can address any issues. Feel free to have a support person be part of the consultation."
     },
     {
       question: "Do you take insurance?",
