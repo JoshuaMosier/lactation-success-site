@@ -1,5 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+  
   let isMenuOpen = false;
 
   const toggleMenu = () => {
@@ -26,8 +28,8 @@
       <div class="flex items-center">
         <a href="/" class="flex-shrink-0 flex items-center">
           <span class="text-3xl md:text-4xl font-medium tracking-tight">
-            <span class="text-blue-900">Lactation</span>
-            <span class="text-blue-700">Success</span>
+            <span class="text-theme-900">Lactation</span>
+            <span class="text-theme-700">Success</span>
           </span>
         </a>
       </div>
@@ -37,11 +39,14 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="text-gray-700 hover:text-blue-800 px-4 py-2 text-lg font-medium transition-colors duration-200 hover:bg-blue-50 rounded-md {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
+            class="text-gray-700 hover:text-theme-800 px-4 py-2 text-lg font-medium transition-colors duration-[var(--theme-transition-duration)] hover:bg-theme-50 rounded-md {$page.url.pathname === item.href ? 'text-theme-800 bg-theme-50 font-semibold' : ''}"
           >
             {item.label}
           </a>
         {/each}
+        
+        <!-- Add theme toggle -->
+        <ThemeToggle />
       </div>
 
       <!-- Mobile menu button -->
@@ -85,11 +90,15 @@
           <a
             href={item.href}
             on:click={closeMenu}
-            class="block px-4 py-3 text-xl font-medium text-gray-700 hover:text-blue-800 hover:bg-blue-50 transition-colors duration-200 {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
+            class="block px-4 py-3 text-xl font-medium text-gray-700 hover:text-blue-800 hover:bg-blue-50 transition-colors duration-[var(--theme-transition-duration)] {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
           >
             {item.label}
           </a>
         {/each}
+        
+        <div class="px-4 py-3 flex justify-center">
+          <ThemeToggle />
+        </div>
       </div>
     </div>
   {/if}

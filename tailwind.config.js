@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: {
-          50: '#f0f5fa',
+        // Boy theme colors
+        boy: {
+          50: '#eff6ff',
           100: '#e1eaf4',
           200: '#c3d5e9',
           300: '#a4c0dd',
@@ -16,17 +17,18 @@ export default {
           800: '#1e5694',
           900: '#1a365d'
         },
-        warm: {
-          50: '#fdf8f6',
-          100: '#f2e8e5',
-          200: '#eaddd7',
-          300: '#e0cec7',
-          400: '#d2bab0',
-          500: '#bfa094',
-          600: '#a18072',
-          700: '#977669',
-          800: '#846358',
-          900: '#43302b'
+        // Girl theme colors
+        girl: {
+          50: '#fef1f7',
+          100: '#fee5f0',
+          200: '#fecce3',
+          300: '#ffa2cb',
+          400: '#fe77b3',
+          500: '#f83c96',
+          600: '#e91e79',
+          700: '#ca0c61',
+          800: '#a70d52',
+          900: '#8c0f47'
         }
       },
       fontFamily: {
@@ -36,11 +38,28 @@ export default {
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'inner-soft': 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)'
-      }
+      },
+      backgroundImage: {
+        'gradient-to-b': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
+      },
     }
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    function({ addUtilities, theme, e }) {
+      const themeColors = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];
+      
+      const fromUtilities = themeColors.reduce((acc, value) => {
+        acc[`.from-theme-${value}`] = {
+          '--tw-gradient-from': `var(--color-primary-${value})`,
+          '--tw-gradient-to': 'rgb(255 255 255 / 0)',
+          '--tw-gradient-stops': 'var(--tw-gradient-from), var(--tw-gradient-to)',
+        };
+        return acc;
+      }, {});
+      
+      addUtilities(fromUtilities);
+    },
   ]
 } 
