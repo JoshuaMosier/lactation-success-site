@@ -99,51 +99,77 @@
             <div class="ml-4">
               <h3 class="text-2xl font-serif text-blue-900 mb-4">Choose Your Payment Method</h3>
               
-              <!-- Insurance Option -->
-              <div class="mb-6">
-                <h4 class="text-xl text-blue-800 mb-2">Insurance Coverage</h4>
-                <p class="text-gray-600 mb-4">
-                  If your insurance is covered by The Lactation Network (TLN), you can start the verification process immediately.
-                </p>
-                <a 
-                  href="https://go.lactationnetwork.com/LactationSuccessLLC"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-block bg-blue-700 text-white px-6 py-3 rounded-full hover:bg-blue-800 transition-colors duration-200"
-                >
-                  Verify Insurance with TLN
-                </a>
-              </div>
-
-              <!-- Self-Pay Option -->
-              <div class="border-t border-gray-200 pt-6">
-                <h4 class="text-xl text-blue-800 mb-2">Self-Pay Fee Schedule</h4>
-                <div class="grid md:grid-cols-2 gap-4">
-                  <div class="bg-gray-50 p-4 rounded-lg">
-                    <h5 class="font-medium text-gray-900">Initial In-Home Visit</h5>
-                    <p class="text-gray-600">$235 (1.5-2 hours)</p>
+              <div class="grid md:grid-cols-2 gap-8">
+                <!-- Insurance Option -->
+                <div>
+                  <h4 class="text-xl text-blue-800 mb-2">Insurance Coverage</h4>
+                  <p class="text-gray-600 mb-4">
+                    If your insurance is covered by The Lactation Network (TLN), you can start the verification process immediately.
+                  </p>
+                  <!-- Insurance Logos -->
+                  <div class="flex flex-wrap items-center justify-center gap-4 mb-6 bg-gray-50 p-6 rounded-lg">
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
                   </div>
-                  <div class="bg-gray-50 p-4 rounded-lg">
-                    <h5 class="font-medium text-gray-900">Follow-up In-Home Visit</h5>
-                    <p class="text-gray-600">$200</p>
-                  </div>
-                  <div class="bg-gray-50 p-4 rounded-lg">
-                    <h5 class="font-medium text-gray-900">Multiples Initial Visit</h5>
-                    <p class="text-gray-600">$330 (1.5-2 hours)</p>
-                  </div>
-                  <div class="bg-gray-50 p-4 rounded-lg">
-                    <h5 class="font-medium text-gray-900">Multiples Follow-up Visit</h5>
-                    <p class="text-gray-600">$250</p>
-                  </div>
-                  <div class="bg-gray-50 p-4 rounded-lg">
-                    <h5 class="font-medium text-gray-900">Telehealth Visit</h5>
-                    <p class="text-gray-600">$200 (1 hour)</p>
+                  <div class="flex justify-center">
+                    <a 
+                      href="https://go.lactationnetwork.com/LactationSuccessLLC"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-block bg-blue-700 text-white px-6 py-3 rounded-full hover:bg-blue-800 transition-colors duration-200"
+                    >
+                      Verify Insurance with TLN
+                    </a>
                   </div>
                 </div>
-                <div class="mt-4 text-gray-600">
-                  <p>No additional charge for travel to your home.</p>
-                  <p>Payment accepted via Cash, Venmo, PayPal, or credit card.</p>
-                  <p class="mt-2 text-sm italic">A Superbill will be provided for insurance reimbursement if needed.</p>
+
+                <!-- Self-Pay Option -->
+                <div class="md:border-l md:border-gray-200 md:pl-8">
+                  <h4 class="text-xl text-blue-800 mb-2">Self-Pay Fee Schedule</h4>
+                  <div class="space-y-2">
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Initial In-Home Visit</h5>
+                      <p class="text-gray-600 text-sm">$235 (1.5-2 hours)</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Follow-up In-Home Visit</h5>
+                      <p class="text-gray-600 text-sm">$200</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Multiples Initial Visit</h5>
+                      <p class="text-gray-600 text-sm">$330 (1.5-2 hours)</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Multiples Follow-up Visit</h5>
+                      <p class="text-gray-600 text-sm">$250</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Telehealth Visit</h5>
+                      <p class="text-gray-600 text-sm">$200 (1 hour)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Payment Notes -->
+              <div class="mt-8 pt-6 border-t border-gray-200">
+                <div class="text-gray-600 text-sm space-y-1">
+                  <p>• No additional charge for travel to your home</p>
+                  <p>• Payment accepted via Cash, Venmo, PayPal, or credit card</p>
+                  <p class="italic">• A Superbill will be provided for insurance reimbursement if needed</p>
                 </div>
               </div>
             </div>
@@ -179,10 +205,10 @@
               </div>
 
               <!-- Contact Buttons -->
-              <div class="grid md:grid-cols-2 gap-4">
+              <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a 
                   href="tel:+17035999180"
-                  class="flex items-center justify-center px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-full hover:bg-blue-900 hover:text-white transition-colors duration-200"
+                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-blue-900 text-lg font-medium rounded-full text-white hover:bg-blue-800 transition-colors duration-200"
                 >
                   <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -191,7 +217,7 @@
                 </a>
                 <a 
                   href="mailto:carolyn.mosier@lactationsuccess.com"
-                  class="flex items-center justify-center px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-full hover:bg-blue-900 hover:text-white transition-colors duration-200"
+                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border-2 border-blue-900 text-lg font-medium rounded-full text-blue-900 hover:bg-blue-900 hover:text-white transition-colors duration-200"
                 >
                   <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
