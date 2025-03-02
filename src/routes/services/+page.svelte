@@ -100,8 +100,13 @@
       <div class="lg:pl-8">
         <div class="bg-gradient-to-br from-blue-50 to-warm-50 rounded-xl p-8 shadow-soft border border-blue-100">
           <h2 class="text-2xl font-serif text-blue-900 mb-8">Consultation Options</h2>
-          
+    
           <div class="space-y-6">
+            <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
+              <h3 class="text-xl font-serif text-blue-800 mb-3">Prenatal Education</h3>
+              <p class="text-gray-600 leading-relaxed">Prepare for success with comprehensive education before your baby arrives.</p>
+            </div>
+
             <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
               <h3 class="text-xl font-serif text-blue-800 mb-3">In-Home Visits</h3>
               <p class="text-gray-600 leading-relaxed">Personalized support in the comfort of your home, perfect for early postpartum care and hands-on assistance.</p>
@@ -113,14 +118,15 @@
             </div>
 
             <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
-              <h3 class="text-xl font-serif text-blue-800 mb-3">Prenatal Education</h3>
-              <p class="text-gray-600 leading-relaxed">Prepare for success with comprehensive education before your baby arrives.</p>
+              <h3 class="text-xl font-serif text-blue-800 mb-3">Back to Work</h3>
+              <p class="text-gray-600 leading-relaxed">Assistance with preparing to go back to work, pumping, milk storage and all about bottles.</p>
             </div>
+
           </div>
 
           <div class="mt-10 text-center">
-            <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
-              Schedule a Consultation
+            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+              Schedule an Appointment
             </a>
           </div>
         </div>

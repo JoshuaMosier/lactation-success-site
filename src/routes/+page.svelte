@@ -44,8 +44,8 @@
 
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
-          <a href="/contact" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
-            Schedule a Consultation
+          <a href="/appointments" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+            Schedule an Appointment
           </a>
         </div>
       </div>
@@ -127,8 +127,8 @@
           <h2 class="text-3xl font-serif text-blue-900 sm:text-4xl">Ready to start your journey?</h2>
           <p class="mt-4 text-xl text-blue-700">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
           <div class="mt-10">
-            <a href="https://go.lactationnetwork.com/LactationSuccessLLC" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
-              Schedule Now
+            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-blue-700 hover:bg-blue-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+              Schedule an Appointment
             </a>
           </div>
         </div>

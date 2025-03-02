@@ -14,7 +14,7 @@
   const faqs = [
     {
       question: "How do I make an appointment?",
-      answer: "Call or text me at (703)-599-9180. Alternatively, click <a href='https://go.lactationnetwork.com/LactationSuccessLLC' class='text-blue-900 hover:text-blue-700 underline'>here</a> to make your appointment through The Lactation Network."
+      answer: "See the appointments page for more information. <a href='/appointments' class='text-blue-900 hover:text-blue-700 underline'>Click here</a>"
     },
     {
       question: "Where do you see clients for appointments?",

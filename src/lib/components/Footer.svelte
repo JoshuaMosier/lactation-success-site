@@ -4,7 +4,7 @@
 
 <footer class="bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
       <!-- Company Info -->
       <div class="col-span-1 md:col-span-2">
         <h3 class="text-lg font-serif text-blue-900 mb-4">Lactation Success LLC</h3>
@@ -14,6 +14,11 @@
         <p class="text-gray-600">
           IBCLC Certified • Flexible Scheduling
         </p>
+      </div>
+
+      <!-- IBCLC Logo -->
+      <div class="flex items-center justify-center">
+        <img src="/images/ibclc.png" alt="IBCLC Certification Logo" class="max-w-[150px]" />
       </div>
 
       <!-- Quick Links -->
