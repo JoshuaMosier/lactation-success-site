@@ -4,6 +4,41 @@
 
 /* Custom styles */
 @layer base {
+  :root {
+    /* Boy theme (default) - using RGB values */
+    --color-primary-50-rgb: 240, 245, 250;
+    --color-primary-100-rgb: 225, 234, 244;
+    --color-primary-200: theme('colors.boy.200');
+    --color-primary-300: theme('colors.boy.300');
+    --color-primary-400: theme('colors.boy.400');
+    --color-primary-500: theme('colors.boy.500');
+    --color-primary-600: theme('colors.boy.600');
+    --color-primary-700: theme('colors.boy.700');
+    --color-primary-800: theme('colors.boy.800');
+    --color-primary-900: theme('colors.boy.900');
+    /* Transition settings */
+    --theme-transition-duration: 300ms;
+    --theme-transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Computed colors */
+    --color-primary-50: rgb(var(--color-primary-50-rgb));
+    --color-primary-100: rgb(var(--color-primary-100-rgb));
+  }
+
+  [data-theme='girl'] {
+    /* Girl theme - using RGB values */
+    --color-primary-50-rgb: 254, 241, 247;
+    --color-primary-100-rgb: 254, 229, 240;
+    --color-primary-200: theme('colors.girl.200');
+    --color-primary-300: theme('colors.girl.300');
+    --color-primary-400: theme('colors.girl.400');
+    --color-primary-500: theme('colors.girl.500');
+    --color-primary-600: theme('colors.girl.600');
+    --color-primary-700: theme('colors.girl.700');
+    --color-primary-800: theme('colors.girl.800');
+    --color-primary-900: theme('colors.girl.900');
+  }
+
   html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   }
@@ -28,12 +63,73 @@
       scroll-behavior: auto !important;
     }
   }
+
+  /* Apply transitions ONLY to theme-related properties */
+  *, *::before, *::after {
+    transition-property: none; /* Reset all transitions first */
+  }
+  
+  /* Only apply transitions to color properties */
+  [class*="bg-theme"], [class*="text-theme"], [class*="border-theme"],
+  [class*="bg-"], [class*="text-"], [class*="border-"] {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: var(--theme-transition-duration);
+    transition-timing-function: var(--theme-transition-timing);
+    transition-delay: 0ms; /* Ensure no delay */
+  }
+  
+  /* Disable transitions for users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Add will-change to optimize rendering performance */
+  [class*="bg-theme"], [class*="text-theme"], [class*="border-theme"] {
+    will-change: background-color, border-color, color;
+  }
+  
+  /* But remove it after transition completes to save memory */
+  .theme-transition-complete [class*="bg-theme"],
+  .theme-transition-complete [class*="text-theme"],
+  .theme-transition-complete [class*="border-theme"] {
+    will-change: auto;
+  }
 }
 
 @layer components {
+  /* Theme-aware component styles */
+  .btn-primary {
+    @apply bg-theme-700 text-white hover:bg-theme-800;
+  }
+  
   /* Add any custom component styles here */
 }
 
 @layer utilities {
+  /* Theme-aware utility classes */
+  .bg-theme-50 { background-color: var(--color-primary-50); }
+  .bg-theme-100 { background-color: var(--color-primary-100); }
+  .bg-theme-200 { background-color: var(--color-primary-200); }
+  .bg-theme-300 { background-color: var(--color-primary-300); }
+  .bg-theme-400 { background-color: var(--color-primary-400); }
+  .bg-theme-500 { background-color: var(--color-primary-500); }
+  .bg-theme-600 { background-color: var(--color-primary-600); }
+  .bg-theme-700 { background-color: var(--color-primary-700); }
+  .bg-theme-800 { background-color: var(--color-primary-800); }
+  .bg-theme-900 { background-color: var(--color-primary-900); }
+  
+  .text-theme-50 { color: var(--color-primary-50); }
+  .text-theme-100 { color: var(--color-primary-100); }
+  .text-theme-200 { color: var(--color-primary-200); }
+  .text-theme-300 { color: var(--color-primary-300); }
+  .text-theme-400 { color: var(--color-primary-400); }
+  .text-theme-500 { color: var(--color-primary-500); }
+  .text-theme-600 { color: var(--color-primary-600); }
+  .text-theme-700 { color: var(--color-primary-700); }
+  .text-theme-800 { color: var(--color-primary-800); }
+  .text-theme-900 { color: var(--color-primary-900); }
+  
   /* Add any custom utility styles here */
 } 

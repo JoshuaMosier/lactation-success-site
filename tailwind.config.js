@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: {
+        // Boy theme colors
+        boy: {
           50: '#f0f5fa',
           100: '#e1eaf4',
           200: '#c3d5e9',
@@ -16,6 +17,20 @@ export default {
           800: '#1e5694',
           900: '#1a365d'
         },
+        // Girl theme colors
+        girl: {
+          50: '#fef1f7',
+          100: '#fee5f0',
+          200: '#fecce3',
+          300: '#ffa2cb',
+          400: '#fe77b3',
+          500: '#f83c96',
+          600: '#e91e79',
+          700: '#ca0c61',
+          800: '#a70d52',
+          900: '#8c0f47'
+        },
+        // Theme-neutral colors (keep your existing warm colors)
         warm: {
           50: '#fdf8f6',
           100: '#f2e8e5',

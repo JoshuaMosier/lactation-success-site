@@ -7,7 +7,7 @@
     <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
       <!-- Company Info -->
       <div class="col-span-1 md:col-span-2">
-        <h3 class="text-lg font-serif text-blue-900 mb-4">Lactation Success LLC</h3>
+        <h3 class="text-lg font-serif text-theme-900 mb-4">Lactation Success LLC</h3>
         <p class="text-gray-600 mb-4">
           Supporting mothers and babies in the Northern Virginia area with professional lactation consulting services.
         </p>
@@ -25,10 +25,10 @@
       <div>
         <h3 class="text-sm font-semibold text-gray-900 mb-4">Quick Links</h3>
         <ul class="space-y-3">
-          <li><a href="/services" class="text-gray-600 hover:text-blue-900">Services</a></li>
-          <li><a href="/insurance" class="text-gray-600 hover:text-blue-900">Insurance</a></li>
-          <li><a href="/faq" class="text-gray-600 hover:text-blue-900">FAQs</a></li>
-          <li><a href="/about" class="text-gray-600 hover:text-blue-900">About Me</a></li>
+          <li><a href="/services" class="text-gray-600 hover:text-theme-900">Services</a></li>
+          <li><a href="/insurance" class="text-gray-600 hover:text-theme-900">Insurance</a></li>
+          <li><a href="/faq" class="text-gray-600 hover:text-theme-900">FAQs</a></li>
+          <li><a href="/about" class="text-gray-600 hover:text-theme-900">About Me</a></li>
         </ul>
       </div>
 
@@ -38,12 +38,12 @@
         <ul class="space-y-3">
           <li class="text-gray-600">Falls Church, VA</li>
           <li>
-            <a href="tel:+17035999180" aria-label="Call us at (703)-599-9180" class="text-gray-600 hover:text-blue-900">
+            <a href="tel:+17035999180" aria-label="Call us at (703)-599-9180" class="text-gray-600 hover:text-theme-900">
               (703)-599-9180
             </a>
           </li>
           <li>
-            <a href="mailto:carolyn.mosier@lactationsuccess.com" aria-label="Email us at carolyn.mosier@lactationsuccess.com" class="text-gray-600 hover:text-blue-900">
+            <a href="mailto:carolyn.mosier@lactationsuccess.com" aria-label="Email us at carolyn.mosier@lactationsuccess.com" class="text-gray-600 hover:text-theme-900">
               carolyn.mosier@lactationsuccess.com
             </a>
           </li>
