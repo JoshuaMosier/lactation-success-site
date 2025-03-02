@@ -6,6 +6,8 @@
 <svelte:head>
   <title>Lactation Success LLC - Professional Breastfeeding Support in the Northern Virginia Area</title>
   <meta name="description" content="Professional lactation consulting services in the Northern Virginia area. Develop a predictable feeding routine and bond with your baby." />
+  <link rel="preload" as="image" href="/images/stock-temp-logo-blue.png">
+  <link rel="preload" as="image" href="/images/stock-temp-logo-pink.png">
 </svelte:head>
 
 <!-- Hero Section -->
@@ -28,13 +30,14 @@
     <!-- Logo Overlay -->
     <div class="absolute -left-[20%] top-1/2 -translate-y-1/2 hidden xl:block w-[45%] max-w-[500px]">
       <div class="relative w-full pb-[100%]">
-        <!-- Use a single container with background image that changes -->
+        <!-- Both images are rendered with opacity transitions -->
         <div 
-          class="absolute inset-0 bg-no-repeat bg-center bg-contain transition-[background-image] duration-[var(--theme-transition-duration)]"
-          style={$theme === 'boy' 
-            ? "background-image: url('/images/stock-temp-logo-blue.png');" 
-            : "background-image: url('/images/stock-temp-logo-pink.png');"
-          }
+          class="absolute inset-0 bg-no-repeat bg-center bg-contain transition-opacity duration-[var(--theme-transition-duration)]"
+          style="background-image: url('/images/stock-temp-logo-blue.png'); opacity: {$theme === 'boy' ? '1' : '0'}"
+        ></div>
+        <div 
+          class="absolute inset-0 bg-no-repeat bg-center bg-contain transition-opacity duration-[var(--theme-transition-duration)]"
+          style="background-image: url('/images/stock-temp-logo-pink.png'); opacity: {$theme === 'girl' ? '1' : '0'}"
         ></div>
       </div>
     </div>
