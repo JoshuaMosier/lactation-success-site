@@ -77,7 +77,7 @@
       <!-- Service Card 3 -->
       <div class="bg-white rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-blue-50 flex flex-col">
         <h3 class="text-xl font-serif text-blue-900 min-h-[4rem]">Telehealth Consultations</h3>
-        <p class="mt-4 text-gray-600 leading-relaxed">Get expert advice and support from anywhere with convenient online consultation options.</p>
+        <p class="mt-4 text-gray-600 leading-relaxed">Get expert advice and support from your home with convenient online consultation options.</p>
       </div>
     </div>
   </div>
