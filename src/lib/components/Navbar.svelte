@@ -13,6 +13,7 @@
   const navItems = [
     { href: '/', label: 'Home' },
     { href: '/services', label: 'Services' },
+    { href: '/appointments', label: 'Appointments' },
     { href: '/insurance', label: 'Insurance' },
     { href: '/faq', label: 'FAQs' },
     { href: '/contact', label: 'Contact' }
@@ -32,7 +33,7 @@
       </div>
       
       <!-- Desktop menu -->
-      <div class="hidden md:flex items-center space-x-10">
+      <div class="hidden md:flex items-center space-x-6">
         {#each navItems as item}
           <a
             href={item.href}
