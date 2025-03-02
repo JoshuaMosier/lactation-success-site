@@ -121,7 +121,7 @@
         </button>
         {#if isServiceAreaExpanded}
           <div class="mt-6">
-            <p class="text-gray-600 mb-6">I provide in-home consultations within approximately 25 miles of Falls Church, Virginia. Telehealth consultations are available throughout Northern Virginia.</p>
+            <p class="text-gray-600 mb-6">I provide in-home consultations within approximately 25 miles of Falls Church, Virginia.</p>
             <div class="relative w-full h-[400px] rounded-lg overflow-hidden" id="map"></div>
           </div>
         {/if}
@@ -158,7 +158,7 @@
               <li>Check your baby's weight</li>
               <li>Develop a personalized care plan</li>
               <li>Provide practical tips and techniques you can implement right away</li>
-              <li>Many other issues can be addressed during this time</li>
+              <li>Address any other issues you may have</li>
             </ul>
           </div>
         {/if}
