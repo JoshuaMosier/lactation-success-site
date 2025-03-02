@@ -59,6 +59,7 @@
               <li>Check your baby's weight</li>
               <li>Develop a personalized care plan</li>
               <li>Provide practical tips and techniques you can implement right away</li>
+              <li>Many other issues can be addressed during this time</li>
             </ul>
           </div>
         {/if}
@@ -104,7 +105,7 @@
                 <div>
                   <h4 class="text-xl text-blue-800 mb-2">Insurance Coverage</h4>
                   <p class="text-gray-600 mb-4">
-                    If your insurance is covered by The Lactation Network (TLN), you can start the verification process immediately.
+                    If your insurance is covered by The Lactation Network (TLN), you can start the verification process immediately, and they'll handle your claims.
                   </p>
                   <!-- Insurance Logos -->
                   <div class="flex flex-wrap items-center justify-center gap-4 mb-6 bg-gray-50 p-6 rounded-lg">
@@ -134,6 +135,8 @@
                       Verify Insurance with TLN
                     </a>
                   </div>
+                  <br>
+                  <p class="text-gray-600 mb-4">If your insurance is not listed above, you will pay upfront and a Superbill (receipt) will be provided for insurance reimbursement.</p>
                 </div>
 
                 <!-- Self-Pay Option -->
@@ -146,7 +149,7 @@
                     </div>
                     <div class="bg-gray-50 p-3 rounded-lg">
                       <h5 class="font-medium text-gray-900 text-sm">Follow-up In-Home Visit</h5>
-                      <p class="text-gray-600 text-sm">$200</p>
+                      <p class="text-gray-600 text-sm">$200 (1 hour)</p>
                     </div>
                     <div class="bg-gray-50 p-3 rounded-lg">
                       <h5 class="font-medium text-gray-900 text-sm">Multiples Initial Visit</h5>
@@ -154,7 +157,7 @@
                     </div>
                     <div class="bg-gray-50 p-3 rounded-lg">
                       <h5 class="font-medium text-gray-900 text-sm">Multiples Follow-up Visit</h5>
-                      <p class="text-gray-600 text-sm">$250</p>
+                      <p class="text-gray-600 text-sm">$250 (1 hour)</p>
                     </div>
                     <div class="bg-gray-50 p-3 rounded-lg">
                       <h5 class="font-medium text-gray-900 text-sm">Telehealth Visit</h5>
@@ -168,8 +171,7 @@
               <div class="mt-8 pt-6 border-t border-gray-200">
                 <div class="text-gray-600 text-sm space-y-1">
                   <p>• No additional charge for travel to your home</p>
-                  <p>• Payment accepted via Cash, Venmo, PayPal, or credit card</p>
-                  <p class="italic">• A Superbill will be provided for insurance reimbursement if needed</p>
+                  <p>• Payment accepted via Cash, Venmo, PayPal, or credit card prior to your appointment</p>
                 </div>
               </div>
             </div>
@@ -184,10 +186,12 @@
             </div>
             <div class="ml-4">
               <h3 class="text-2xl font-serif text-blue-900 mb-4">Schedule Your Appointment</h3>
-              <p class="text-gray-600 mb-6">
+              <p class="text-gray-800 mb-6">
                 Contact me to schedule your appointment or if you have any questions about the process.
               </p>
-              
+              <p class="text-gray-600">Hours of operation: Monday - Friday, 9am - 5pm</p>
+              <p class="text-gray-600">Telehleath consultations also available weekends as needed</p>
+              <br>
               <!-- Contact Information -->
               <div class="mb-8 space-y-4">
                 <div class="flex items-center text-gray-700">
