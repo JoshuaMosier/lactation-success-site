@@ -298,6 +298,22 @@
                 Contact me to schedule your appointment or if you have any questions about the process.
               </p>
 
+              <!-- Contact Information -->
+              <div class="grid md:grid-cols-2 gap-4 mb-8">
+                <div class="flex items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span class="font-medium">(703)-599-9180</span>
+                </div>
+                <div class="flex items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span class="font-medium">carolyn.mosier@lactationsuccess.com</span>
+                </div>
+              </div>
+
               <!-- Availability Info -->
               <div class="bg-blue-50 rounded-lg p-6 mb-8">
                 <h4 class="text-lg font-serif text-blue-800 mb-4">Availability</h4>
@@ -312,22 +328,6 @@
                     <p class="text-gray-700">Monday - Friday: Regular hours</p>
                     <p class="text-gray-700">Weekends: Available as needed</p>
                   </div>
-                </div>
-              </div>
-
-              <!-- Contact Information -->
-              <div class="mb-8 space-y-4 max-w-full">
-                <div class="flex items-start sm:items-center text-gray-700">
-                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  <span class="font-medium break-words">(703)-599-9180</span>
-                </div>
-                <div class="flex items-start sm:items-center text-gray-700">
-                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  <span class="font-medium break-words">carolyn.mosier@lactationsuccess.com</span>
                 </div>
               </div>
 
