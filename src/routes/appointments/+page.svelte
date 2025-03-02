@@ -1,0 +1,238 @@
+<script lang="ts">
+  // Add expanding section functionality
+  let isExpanded = false;
+
+  function toggleExpand() {
+    isExpanded = !isExpanded;
+  }
+</script>
+
+<svelte:head>
+  <title>Schedule an Appointment - Lactation Success LLC</title>
+  <meta name="description" content="Schedule a lactation consultation with Carolyn Mosier APRN, IBCLC, RLC. Offering in-home visits and telehealth appointments in Northern Virginia." />
+</svelte:head>
+
+<!-- Header -->
+<section class="bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url('/images/baby-banner.png');">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h1 class="text-4xl font-serif text-blue-900 sm:text-5xl md:text-6xl">
+        <span class="block">Schedule an Appointment</span>
+      </h1>
+      <p class="mt-4 text-xl text-gray-600 max-w-xl mx-auto">Learn what to expect and follow our simple steps to book your consultation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- What to Expect Section -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <!-- Expandable What to Expect Section -->
+      <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-200">
+        <button
+          class="w-full text-left focus:outline-none"
+          on:click={toggleExpand}
+        >
+          <div class="flex items-center justify-between">
+            <h2 class="text-3xl font-serif text-blue-900">What to Expect During Your Consultation</h2>
+            <span class="ml-6 flex-shrink-0">
+              {#if isExpanded}
+                <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                </svg>
+              {:else}
+                <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                </svg>
+              {/if}
+            </span>
+          </div>
+        </button>
+        {#if isExpanded}
+          <div class="mt-6 prose prose-lg max-w-none text-gray-600">
+            <p class="mb-4">During our consultation, we will:</p>
+            <ul class="space-y-2">
+              <li>Discuss your specific goals and concerns</li>
+              <li>Observe a feeding session</li>
+              <li>Assess your baby's latch and positioning</li>
+              <li>Check your baby's weight</li>
+              <li>Develop a personalized care plan</li>
+              <li>Provide practical tips and techniques you can implement right away</li>
+              <li>Many other issues can be addressed during this time</li>
+            </ul>
+          </div>
+        {/if}
+      </div>
+
+      <!-- Scheduling Steps -->
+      <div class="space-y-8">
+        <!-- Step 1 -->
+        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-4 sm:p-8">
+          <div class="flex flex-col sm:flex-row sm:items-start">
+            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold mb-4 sm:mb-0">
+              1
+            </div>
+            <div class="sm:ml-4 w-full">
+              <h3 class="text-2xl font-serif text-blue-900 mb-4">Review Insurance Coverage</h3>
+              <p class="text-gray-600 mb-4">
+                Most insurance plans cover 100% of lactation visits under the Affordable Care Act. 
+                <a href="/insurance" class="text-blue-700 hover:text-blue-900 underline">View our insurance page</a> for detailed coverage information.
+              </p>
+              <a 
+                href="https://www.healthcare.gov/coverage/breast-feeding-benefits/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-blue-700 hover:text-blue-900 underline"
+              >
+                Learn more about breastfeeding benefits under the ACA
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-4 sm:p-8">
+          <div class="flex flex-col sm:flex-row sm:items-start">
+            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold mb-4 sm:mb-0">
+              2
+            </div>
+            <div class="sm:ml-4 w-full">
+              <h3 class="text-2xl font-serif text-blue-900 mb-4">Choose Your Payment Method</h3>
+              
+              <div class="grid md:grid-cols-2 gap-8">
+                <!-- Insurance Option -->
+                <div>
+                  <h4 class="text-xl text-blue-800 mb-2">Insurance Coverage</h4>
+                  <p class="text-gray-600 mb-4">
+                    If your insurance is covered by The Lactation Network (TLN), you can start the verification process immediately, and they'll handle your claims.
+                  </p>
+                  <!-- Insurance Logos -->
+                  <div class="flex flex-wrap items-center justify-center gap-4 mb-6 bg-gray-50 p-6 rounded-lg">
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-8 max-w-12 object-contain" />
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <a 
+                      href="https://go.lactationnetwork.com/LactationSuccessLLC"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-block bg-blue-700 text-white px-6 py-3 rounded-full hover:bg-blue-800 transition-colors duration-200"
+                    >
+                      Verify Insurance with TLN
+                    </a>
+                  </div>
+                  <br>
+                  <p class="text-gray-600 mb-4">If your insurance is not listed above, you will pay upfront and a Superbill (receipt) will be provided for insurance reimbursement.</p>
+                </div>
+
+                <!-- Self-Pay Option -->
+                <div class="md:border-l md:border-gray-200 md:pl-8">
+                  <h4 class="text-xl text-blue-800 mb-2">Self-Pay Fee Schedule</h4>
+                  <div class="space-y-2">
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Initial In-Home Visit</h5>
+                      <p class="text-gray-600 text-sm">$235 (1.5-2 hours)</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Follow-up In-Home Visit</h5>
+                      <p class="text-gray-600 text-sm">$200 (1 hour)</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Multiples Initial Visit</h5>
+                      <p class="text-gray-600 text-sm">$330 (1.5-2 hours)</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Multiples Follow-up Visit</h5>
+                      <p class="text-gray-600 text-sm">$250 (1 hour)</p>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg">
+                      <h5 class="font-medium text-gray-900 text-sm">Telehealth Visit</h5>
+                      <p class="text-gray-600 text-sm">$200 (1 hour)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Payment Notes -->
+              <div class="mt-8 pt-6 border-t border-gray-200">
+                <div class="text-gray-600 text-sm space-y-1">
+                  <p>• No additional charge for travel to your home</p>
+                  <p>• Payment accepted via Cash, Venmo, PayPal, or credit card prior to your appointment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-4 sm:p-8">
+          <div class="flex flex-col sm:flex-row sm:items-start">
+            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold mb-4 sm:mb-0">
+              3
+            </div>
+            <div class="sm:ml-4 w-full">
+              <h3 class="text-2xl font-serif text-blue-900 mb-4">Schedule Your Appointment</h3>
+              <p class="text-gray-800 mb-6">
+                Contact me to schedule your appointment or if you have any questions about the process.
+              </p>
+              <p class="text-gray-600">Hours of operation: Monday - Friday, 9am - 5pm</p>
+              <p class="text-gray-600">Telehealth consultations also available weekends as needed</p>
+              <br>
+              <!-- Contact Information -->
+              <div class="mb-8 space-y-4 max-w-full">
+                <div class="flex items-start sm:items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span class="font-medium break-words">(703)-599-9180</span>
+                </div>
+                <div class="flex items-start sm:items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span class="font-medium break-words">carolyn.mosier@lactationsuccess.com</span>
+                </div>
+              </div>
+
+              <!-- Contact Buttons -->
+              <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a 
+                  href="tel:+17035999180"
+                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-blue-900 text-lg font-medium rounded-full text-white hover:bg-blue-800 transition-colors duration-200"
+                >
+                  <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  Call or Text
+                </a>
+                <a 
+                  href="mailto:carolyn.mosier@lactationsuccess.com"
+                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border-2 border-blue-900 text-lg font-medium rounded-full text-blue-900 hover:bg-blue-900 hover:text-white transition-colors duration-200"
+                >
+                  <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Email Me
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
