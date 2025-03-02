@@ -99,7 +99,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto">
       <!-- Service Area Map -->
-      <div class="bg-white rounded-2xl shadow-lg border border-theme-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-300">
+      <!-- <div class="bg-white rounded-2xl shadow-lg border border-theme-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-300">
         <button
           class="w-full text-left focus:outline-none"
           on:click={toggleServiceArea}
@@ -125,7 +125,7 @@
             <div class="relative w-full h-[400px] rounded-lg overflow-hidden" id="map"></div>
           </div>
         {/if}
-      </div>
+      </div> -->
 
       <!-- Expandable What to Expect Section -->
       <div class="bg-white rounded-2xl shadow-lg border border-theme-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-300">
