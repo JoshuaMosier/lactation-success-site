@@ -1,5 +1,10 @@
 <script lang="ts">
-  // Add any necessary imports here
+  // Add expanding section functionality
+  let isExpanded = false;
+
+  function toggleExpand() {
+    isExpanded = !isExpanded;
+  }
 </script>
 
 <svelte:head>
@@ -23,19 +28,40 @@
 <section class="py-16 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto">
-      <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8 mb-12">
-        <h2 class="text-3xl font-serif text-blue-900 mb-6">What to Expect During Your Consultation</h2>
-        <div class="prose prose-lg max-w-none text-gray-600">
-          <p class="mb-4">During our consultation, we will:</p>
-          <ul class="space-y-2">
-            <li>Discuss your specific goals and concerns</li>
-            <li>Observe a feeding session</li>
-            <li>Assess your baby's latch and positioning</li>
-            <li>Check your baby's weight</li>
-            <li>Develop a personalized care plan</li>
-            <li>Provide practical tips and techniques you can implement right away</li>
-          </ul>
-        </div>
+      <!-- Expandable What to Expect Section -->
+      <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-200">
+        <button
+          class="w-full text-left focus:outline-none"
+          on:click={toggleExpand}
+        >
+          <div class="flex items-center justify-between">
+            <h2 class="text-3xl font-serif text-blue-900">What to Expect During Your Consultation</h2>
+            <span class="ml-6 flex-shrink-0">
+              {#if isExpanded}
+                <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                </svg>
+              {:else}
+                <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                </svg>
+              {/if}
+            </span>
+          </div>
+        </button>
+        {#if isExpanded}
+          <div class="mt-6 prose prose-lg max-w-none text-gray-600">
+            <p class="mb-4">During our consultation, we will:</p>
+            <ul class="space-y-2">
+              <li>Discuss your specific goals and concerns</li>
+              <li>Observe a feeding session</li>
+              <li>Assess your baby's latch and positioning</li>
+              <li>Check your baby's weight</li>
+              <li>Develop a personalized care plan</li>
+              <li>Provide practical tips and techniques you can implement right away</li>
+            </ul>
+          </div>
+        {/if}
       </div>
 
       <!-- Scheduling Steps -->
@@ -135,6 +161,24 @@
               <p class="text-gray-600 mb-6">
                 Contact me to schedule your appointment or if you have any questions about the process.
               </p>
+              
+              <!-- Contact Information -->
+              <div class="mb-8 space-y-4">
+                <div class="flex items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span class="font-medium">(703)-599-9180</span>
+                </div>
+                <div class="flex items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span class="font-medium">carolyn.mosier@lactationsuccess.com</span>
+                </div>
+              </div>
+
+              <!-- Contact Buttons -->
               <div class="grid md:grid-cols-2 gap-4">
                 <a 
                   href="tel:+17035999180"
