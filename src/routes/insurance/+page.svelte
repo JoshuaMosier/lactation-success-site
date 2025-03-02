@@ -173,7 +173,7 @@
       </div>
 
       <!-- CTA -->
-      <div class="bg-gradient-to-r from-theme-900 to-theme-800 rounded-2xl p-12 text-center text-white">
+      <div class="bg-theme-900 rounded-2xl p-12 text-center text-white">
         <h2 class="text-3xl font-serif mb-6">Ready to Get Started?</h2>
         <p class="text-lg text-theme-100 mb-8 max-w-2xl mx-auto">
           Now that you understand your coverage options, schedule your consultation or reach out with any questions. I'm here to help you navigate your insurance benefits and provide the support you need.
