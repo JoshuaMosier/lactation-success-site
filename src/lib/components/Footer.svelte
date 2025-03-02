@@ -28,7 +28,7 @@
           <li><a href="/services" class="text-gray-600 hover:text-blue-900">Services</a></li>
           <li><a href="/insurance" class="text-gray-600 hover:text-blue-900">Insurance</a></li>
           <li><a href="/faq" class="text-gray-600 hover:text-blue-900">FAQs</a></li>
-          <li><a href="/contact" class="text-gray-600 hover:text-blue-900">Contact</a></li>
+          <li><a href="/about" class="text-gray-600 hover:text-blue-900">About Me</a></li>
         </ul>
       </div>
 

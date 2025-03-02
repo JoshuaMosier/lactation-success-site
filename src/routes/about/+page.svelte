@@ -12,7 +12,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-4xl font-serif text-blue-900 sm:text-5xl md:text-6xl">
-        <span class="block">Contact Me</span>
+        <span class="block">About Me</span>
       </h1>
       <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">I'm dedicated to supporting your breastfeeding journey</p>
     </div>
@@ -45,7 +45,7 @@
             </div>
           </div>
 
-          <h2 class="text-4xl font-serif text-blue-700 mb-8 pb-4 border-b border-blue-100">Contact me with questions or to schedule a consultation</h2>
+          <h2 class="text-4xl font-serif text-blue-700 mb-8 pb-4 border-b border-blue-100">Get in Touch</h2>
           
           <dl class="space-y-8">
             <div>

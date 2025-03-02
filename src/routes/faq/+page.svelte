@@ -110,8 +110,8 @@
           Don't hesitate to reach out. I'm here to help you on your breastfeeding journey.
         </p>
         <div class="mt-8">
-          <a href="/contact" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900 hover:bg-blue-800">
-            Contact Me
+          <a href="/about" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900 hover:bg-blue-800">
+            About Me
           </a>
         </div>
       </div>

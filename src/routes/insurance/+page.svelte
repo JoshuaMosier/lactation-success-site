@@ -182,7 +182,7 @@
           <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 bg-white text-lg font-medium rounded-full text-blue-900 hover:bg-blue-50 transition-colors duration-200">
             Schedule an Appointment
           </a>
-          <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-blue-900 transition-colors duration-200">
+          <a href="/about" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-blue-900 transition-colors duration-200">
             Contact Me
           </a>
         </div>

@@ -16,7 +16,7 @@
     { href: '/appointments', label: 'Appointments' },
     { href: '/insurance', label: 'Insurance' },
     { href: '/faq', label: 'FAQs' },
-    { href: '/contact', label: 'Contact' }
+    { href: '/about', label: 'About Me' }
   ];
 </script>
 
