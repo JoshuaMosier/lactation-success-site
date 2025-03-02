@@ -24,21 +24,21 @@
     ></div>
   </div>
   
-  <!-- Logo Overlay -->
-  <div class="absolute left-16 top-1/2 -translate-y-1/2 hidden lg:block">
-    <div class="relative h-[500px] w-[500px] overflow-hidden">
-      <!-- Use a single container with background image that changes -->
-      <div 
-        class="absolute inset-0 bg-no-repeat bg-center bg-contain transition-[background-image] duration-[var(--theme-transition-duration)]"
-        style={$theme === 'boy' 
-          ? "background-image: url('/images/stock-temp-logo-blue.png');" 
-          : "background-image: url('/images/stock-temp-logo-pink.png');"
-        }
-      ></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <!-- Logo Overlay -->
+    <div class="absolute -left-[20%] top-1/2 -translate-y-1/2 hidden xl:block w-[45%] max-w-[500px]">
+      <div class="relative w-full pb-[100%]">
+        <!-- Use a single container with background image that changes -->
+        <div 
+          class="absolute inset-0 bg-no-repeat bg-center bg-contain transition-[background-image] duration-[var(--theme-transition-duration)]"
+          style={$theme === 'boy' 
+            ? "background-image: url('/images/stock-temp-logo-blue.png');" 
+            : "background-image: url('/images/stock-temp-logo-pink.png');"
+          }
+        ></div>
+      </div>
     </div>
-  </div>
-  
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
     <div class="text-center">
       <h1 class="text-4xl tracking-tight font-serif sm:text-5xl md:text-6xl">
         <span class="block text-theme-900">Professional <span class="text-theme-700">in-home </span> and </span>
