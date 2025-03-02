@@ -45,7 +45,7 @@
     <div class="text-center">
       <h1 class="text-4xl tracking-tight font-serif sm:text-5xl md:text-6xl">
         <span class="block text-theme-900">Professional <span class="text-theme-700">in-home </span> and </span>
-        <span class="block text-theme-700 mt-2">telehealth <span class="text-theme-900">breastfeeding support<span></span>
+        <span class="block text-theme-700 mt-2">telehealth <span class="text-theme-900">breastfeeding support</span></span>
         <span class="block text-theme-900 mt-2">for moms and babies</span>
       </h1>
       

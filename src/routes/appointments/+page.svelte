@@ -158,7 +158,7 @@
               <li>Check your baby's weight</li>
               <li>Develop a personalized care plan</li>
               <li>Provide practical tips and techniques you can implement right away</li>
-              <li>Address any other issues you may have</li>
+              <li>Address any other issues or concerns you may have</li>
             </ul>
           </div>
         {/if}
@@ -221,10 +221,10 @@
                       <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
                     </div>
                     <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/blue-cross.png" alt="theme Cross logo" class="max-h-8 max-w-12 object-contain" />
+                      <img src="/images/insurance-logos/blue-cross.png" alt="blue Cross logo" class="max-h-8 max-w-12 object-contain" />
                     </div>
                     <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/blue-shield.png" alt="theme Shield logo" class="max-h-8 max-w-12 object-contain" />
+                      <img src="/images/insurance-logos/blue-shield.png" alt="blue Shield logo" class="max-h-8 max-w-12 object-contain" />
                     </div>
                     <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
                       <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-12 object-contain" />

@@ -69,9 +69,9 @@
               </span>
               <div class="flex items-center">
                 <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
-                  <img src="/images/insurance-logos/blue-cross.png" alt="theme Cross logo" class="max-h-8 max-w-14 object-contain" />
+                  <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-14 object-contain" />
                 </div>
-                <span class="text-gray-700 font-medium">theme Cross PPO</span>
+                <span class="text-gray-700 font-medium">Blue Cross PPO</span>
               </div>
             </li>
             <li class="flex items-center bg-theme-50 rounded-lg p-4">
@@ -84,7 +84,7 @@
                 <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
                   <img src="/images/insurance-logos/blue-shield.png" alt="theme Shield logo" class="max-h-8 max-w-14 object-contain" />
                 </div>
-                <span class="text-gray-700 font-medium">theme Shield PPO (not Federal)</span>
+                <span class="text-gray-700 font-medium">Blue Shield PPO (not Federal)</span>
               </div>
             </li>
             <!-- <li class="flex items-center bg-theme-50 rounded-lg p-4">

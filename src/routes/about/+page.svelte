@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Contact Me - Lactation Success LLC</title>
+  <title>About Me - Lactation Success LLC</title>
   <meta name="description" content="Contact Carolyn Mosier, International Board Certified Lactation Consultant, RN, and Advanced Practice Nurse serving the Northern Virginia area." />
 </svelte:head>
 
