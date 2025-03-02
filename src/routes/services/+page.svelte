@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { theme } from '$lib/stores/theme';
   // Add any necessary imports here
 </script>
 
@@ -8,8 +9,19 @@
 </svelte:head>
 
 <!-- Header -->
-<section class="bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), url('/images/stock-mom.jpg');">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="relative py-20">
+  <!-- Background with gradient overlay -->
+  <div class="absolute inset-0">
+    <!-- Base image -->
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/stock-mom.jpg');"></div>
+    <!-- Static white gradient overlay -->
+    <div 
+      class="absolute inset-0"
+      style="background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));"
+    ></div>
+  </div>
+  
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-4xl font-serif text-theme-900 sm:text-5xl md:text-6xl">
         <span class="block">Comprehensive</span>
@@ -98,36 +110,50 @@
 
       <!-- Consultation Options -->
       <div class="lg:pl-8">
-        <div class="bg-gradient-to-br from-theme-50 to-warm-50 rounded-xl p-8 shadow-soft border border-theme-100">
-          <h2 class="text-2xl font-serif text-theme-900 mb-8">Consultation Options</h2>
+        <div class="relative rounded-xl p-8 shadow-soft border border-theme-100">
+          <!-- Boy theme gradient -->
+          <div 
+            class="absolute inset-0 rounded-xl bg-gradient-to-b from-boy-50 to-white transition-opacity duration-[var(--theme-transition-duration)] ease-[var(--theme-transition-timing)]"
+            style="opacity: {$theme === 'boy' ? '1' : '0'}"
+          ></div>
+          <!-- Girl theme gradient -->
+          <div 
+            class="absolute inset-0 rounded-xl bg-gradient-to-b from-girl-50 to-white transition-opacity duration-[var(--theme-transition-duration)] ease-[var(--theme-transition-timing)]"
+            style="opacity: {$theme === 'girl' ? '1' : '0'}"
+          ></div>
+          
+          <!-- Content (now relative) -->
+          <div class="relative">
+            <h2 class="text-2xl font-serif text-theme-900 mb-8">Consultation Options</h2>
     
-          <div class="space-y-6">
-            <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
-              <h3 class="text-xl font-serif text-theme-800 mb-3">Prenatal Education</h3>
-              <p class="text-gray-600 leading-relaxed">Prepare for success with comprehensive education before your baby arrives.</p>
+            <div class="space-y-6">
+              <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
+                <h3 class="text-xl font-serif text-theme-800 mb-3">Prenatal Education</h3>
+                <p class="text-gray-600 leading-relaxed">Prepare for success with comprehensive education before your baby arrives.</p>
+              </div>
+
+              <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
+                <h3 class="text-xl font-serif text-theme-800 mb-3">In-Home Visits</h3>
+                <p class="text-gray-600 leading-relaxed">Personalized support in the comfort of your home, perfect for early postpartum care and hands-on assistance.</p>
+              </div>
+
+              <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
+                <h3 class="text-xl font-serif text-theme-800 mb-3">Virtual Support</h3>
+                <p class="text-gray-600 leading-relaxed">Convenient online consultations for follow-up care and quick questions, from the comfort of your home.</p>
+              </div>
+
+              <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
+                <h3 class="text-xl font-serif text-theme-800 mb-3">Back to Work</h3>
+                <p class="text-gray-600 leading-relaxed">Assistance with preparing to go back to work, pumping, milk storage and all about bottles.</p>
+              </div>
+
             </div>
 
-            <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
-              <h3 class="text-xl font-serif text-theme-800 mb-3">In-Home Visits</h3>
-              <p class="text-gray-600 leading-relaxed">Personalized support in the comfort of your home, perfect for early postpartum care and hands-on assistance.</p>
+            <div class="mt-10 text-center">
+              <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+                Schedule an Appointment
+              </a>
             </div>
-
-            <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
-              <h3 class="text-xl font-serif text-theme-800 mb-3">Virtual Support</h3>
-              <p class="text-gray-600 leading-relaxed">Convenient online consultations for follow-up care and quick questions, from the comfort of your home.</p>
-            </div>
-
-            <div class="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-soft hover:shadow-lg transition-all duration-300">
-              <h3 class="text-xl font-serif text-theme-800 mb-3">Back to Work</h3>
-              <p class="text-gray-600 leading-relaxed">Assistance with preparing to go back to work, pumping, milk storage and all about bottles.</p>
-            </div>
-
-          </div>
-
-          <div class="mt-10 text-center">
-            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
-              Schedule an Appointment
-            </a>
           </div>
         </div>
       </div>
@@ -136,8 +162,19 @@
 </section>
 
 <!-- Insurance Section -->
-<section class="bg-gradient-to-t from-theme-50 to-white py-20">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="relative py-20">
+  <!-- Boy theme gradient -->
+  <div 
+    class="absolute inset-0 bg-gradient-to-t from-boy-50 to-white transition-opacity duration-[var(--theme-transition-duration)] ease-[var(--theme-transition-timing)]"
+    style="opacity: {$theme === 'boy' ? '1' : '0'}"
+  ></div>
+  <!-- Girl theme gradient -->
+  <div 
+    class="absolute inset-0 bg-gradient-to-t from-girl-50 to-white transition-opacity duration-[var(--theme-transition-duration)] ease-[var(--theme-transition-timing)]"
+    style="opacity: {$theme === 'girl' ? '1' : '0'}"
+  ></div>
+  
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h2 class="text-3xl font-serif text-theme-900">Insurance Coverage</h2>
       <p class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">Many insurance plans cover lactation support services. Contact Me to learn more about coverage options.</p>

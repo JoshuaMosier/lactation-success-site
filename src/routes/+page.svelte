@@ -9,27 +9,32 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="bg-gradient-to-b from-theme-50 to-white py-24 relative">
+<section class="py-24 relative">
+  <!-- Background elements that transition with opacity -->
+  <div class="absolute inset-0 -z-10">
+    <!-- Boy gradient -->
+    <div 
+      class="absolute inset-0 bg-gradient-to-b from-boy-50 to-white transition-opacity duration-[var(--theme-transition-duration)] ease-[var(--theme-transition-timing)]"
+      style="opacity: {$theme === 'boy' ? '1' : '0'}"
+    ></div>
+    <!-- Girl gradient -->
+    <div 
+      class="absolute inset-0 bg-gradient-to-b from-girl-50 to-white transition-opacity duration-[var(--theme-transition-duration)] ease-[var(--theme-transition-timing)]"
+      style="opacity: {$theme === 'girl' ? '1' : '0'}"
+    ></div>
+  </div>
+  
   <!-- Logo Overlay -->
   <div class="absolute left-16 top-1/2 -translate-y-1/2 hidden lg:block">
-    <div class="relative h-[500px] w-[500px]">
-      <!-- Blue logo (boy theme) -->
-      <img 
-        src="/images/stock-temp-logo-blue.png" 
-        alt="Lactation Success LLC Logo" 
-        class="absolute inset-0 h-full w-full object-contain opacity-90 transition-opacity duration-300" 
-        class:opacity-90={$theme === 'boy'} 
-        class:opacity-0={$theme === 'girl'} 
-      />
-      
-      <!-- Pink logo (girl theme) -->
-      <img 
-        src="/images/stock-temp-logo-pink.png" 
-        alt="Lactation Success LLC Logo" 
-        class="absolute inset-0 h-full w-full object-contain opacity-90 transition-opacity duration-300" 
-        class:opacity-0={$theme === 'boy'} 
-        class:opacity-90={$theme === 'girl'} 
-      />
+    <div class="relative h-[500px] w-[500px] overflow-hidden">
+      <!-- Use a single container with background image that changes -->
+      <div 
+        class="absolute inset-0 bg-no-repeat bg-center bg-contain transition-[background-image] duration-[var(--theme-transition-duration)]"
+        style={$theme === 'boy' 
+          ? "background-image: url('/images/stock-temp-logo-blue.png');" 
+          : "background-image: url('/images/stock-temp-logo-pink.png');"
+        }
+      ></div>
     </div>
   </div>
   
@@ -63,7 +68,7 @@
 
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
-          <a href="/appointments" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+          <a href="/appointments" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-[transform,background-color,box-shadow] duration-[var(--theme-transition-duration)] shadow-soft hover:shadow-lg">
             Schedule an Appointment
           </a>
         </div>
@@ -82,19 +87,19 @@
     
     <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       <!-- Service Card 1 -->
-      <div class="bg-theme-50 text-theme-900 rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-theme-50 flex flex-col">
+      <div class="bg-theme-50 text-theme-900 rounded-xl shadow-soft p-8 hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)] border border-theme-50 flex flex-col">
         <h3 class="text-xl font-serif text-theme-900 min-h-[4rem]">Prenatal Consultations</h3>
         <p class="mt-4 text-gray-600 leading-relaxed">Prepare for successful breastfeeding before your baby arrives with personalized guidance and education.</p>
       </div>
 
       <!-- Service Card 2 -->
-      <div class="bg-theme-50 text-theme-900 rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-theme-50 flex flex-col">
+      <div class="bg-theme-50 text-theme-900 rounded-xl shadow-soft p-8 hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)] border border-theme-50 flex flex-col">
         <h3 class="text-xl font-serif text-theme-900 min-h-[4rem]">In-Home Support</h3>
         <p class="mt-4 text-gray-600 leading-relaxed">Receive hands-on support and guidance in the comfort of your own home during those crucial early weeks and beyond.</p>
       </div>
 
       <!-- Service Card 3 -->
-      <div class="bg-theme-50 text-theme-900 rounded-xl shadow-soft p-8 hover:shadow-lg transition-all duration-300 border border-theme-50 flex flex-col">
+      <div class="bg-theme-50 text-theme-900 rounded-xl shadow-soft p-8 hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)] border border-theme-50 flex flex-col">
         <h3 class="text-xl font-serif text-theme-900 min-h-[4rem]">Telehealth Consultations</h3>
         <p class="mt-4 text-gray-600 leading-relaxed">Get expert advice and support from your home with convenient online consultation options.</p>
       </div>
@@ -114,22 +119,22 @@
     </div>
 
     <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2">
-      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)]">
         <h3 class="text-xl font-serif text-theme-950 font-semibold">Personalized Approach</h3>
         <p class="mt-4 text-theme-900 leading-relaxed">Every mother and baby pair is unique. I provide customized support tailored to your specific needs and goals.</p>
       </div>
 
-      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)]">
         <h3 class="text-xl font-serif text-theme-950 font-semibold">Evidence-Based Care</h3>
         <p class="mt-4 text-theme-900 leading-relaxed">As an IBCLC certified consultant, I provide up-to-date, research-based guidance you can trust.</p>
       </div>
 
-      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)]">
         <h3 class="text-xl font-serif text-theme-950 font-semibold">Flexible Support Options</h3>
         <p class="mt-4 text-theme-900 leading-relaxed">Choose from prenatal education, in-home visits, or telehealth consultations to fit your schedule and comfort level.</p>
       </div>
 
-      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300">
+      <div class="bg-theme-50 text-theme-900 backdrop-blur-sm rounded-xl p-8 shadow-soft hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)]">
         <h3 class="text-xl font-serif text-theme-950 font-semibold">Insurance Accepted</h3>
         <p class="mt-4 text-theme-900 leading-relaxed">Many insurance plans cover lactation services. I'll help you understand your coverage and benefits.</p>
       </div>
@@ -147,7 +152,7 @@
 
     <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
       <!-- Testimonial 1 -->
-      <div class="bg-theme-50 text-theme-900 rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300 relative">
+      <div class="bg-theme-50 text-theme-900 rounded-xl p-8 shadow-soft hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)] relative">
         <div class="absolute -top-4 left-8 text-theme-700">
           <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
             <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
@@ -165,7 +170,7 @@
       </div>
 
       <!-- Testimonial 2 -->
-      <div class="bg-theme-50 text-theme-900 rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300 relative">
+      <div class="bg-theme-50 text-theme-900 rounded-xl p-8 shadow-soft hover:shadow-lg transition-[background-color,color,box-shadow] duration-[var(--theme-transition-duration)] relative">
         <div class="absolute -top-4 left-8 text-theme-700">
           <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
             <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
@@ -194,7 +199,7 @@
           <h2 class="text-3xl font-serif text-theme-900 sm:text-4xl">Ready to start your journey?</h2>
           <p class="mt-4 text-xl text-theme-700">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
           <div class="mt-10">
-            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
+            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 transform hover:-translate-y-0.5 transition-[transform,background-color,box-shadow] duration-[var(--theme-transition-duration)] shadow-soft hover:shadow-lg">
               Schedule an Appointment
             </a>
           </div>

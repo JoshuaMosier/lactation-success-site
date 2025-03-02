@@ -39,7 +39,7 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="text-gray-700 hover:text-theme-800 px-4 py-2 text-lg font-medium transition-colors duration-200 hover:bg-theme-50 rounded-md {$page.url.pathname === item.href ? 'text-theme-800 bg-theme-50 font-semibold' : ''}"
+            class="text-gray-700 hover:text-theme-800 px-4 py-2 text-lg font-medium transition-colors duration-[var(--theme-transition-duration)] hover:bg-theme-50 rounded-md {$page.url.pathname === item.href ? 'text-theme-800 bg-theme-50 font-semibold' : ''}"
           >
             {item.label}
           </a>
@@ -90,7 +90,7 @@
           <a
             href={item.href}
             on:click={closeMenu}
-            class="block px-4 py-3 text-xl font-medium text-gray-700 hover:text-blue-800 hover:bg-blue-50 transition-colors duration-200 {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
+            class="block px-4 py-3 text-xl font-medium text-gray-700 hover:text-blue-800 hover:bg-blue-50 transition-colors duration-[var(--theme-transition-duration)] {$page.url.pathname === item.href ? 'text-blue-800 bg-blue-50 font-semibold' : ''}"
           >
             {item.label}
           </a>

@@ -74,7 +74,7 @@
     <div class="max-w-3xl mx-auto">
       <div class="space-y-8">
         {#each faqs as faq, index}
-          <div class="bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-200">
+          <div class="bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-300">
             <button
               class="w-full px-8 py-6 text-left focus:outline-none"
               on:click={() => toggleQuestion(index)}

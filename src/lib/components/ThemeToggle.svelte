@@ -8,7 +8,7 @@
   
   <button 
     on:click={toggleTheme}
-    class="relative inline-flex h-8 w-16 items-center rounded-full border-2 transition-colors duration-200 ease-in-out focus:outline-none"
+    class="relative inline-flex h-8 w-16 items-center rounded-full border-2 transition-colors duration-[var(--theme-transition-duration)] ease-in-out focus:outline-none"
     class:border-boy-300={$theme === 'boy'}
     class:border-girl-300={$theme === 'girl'}
     class:bg-boy-100={$theme === 'boy'}
@@ -18,7 +18,7 @@
   >
     <!-- Boy icon and label -->
     <span 
-      class="absolute left-1 flex h-6 w-6 items-center justify-center rounded-full bg-white shadow-md transition-transform duration-200 ease-in-out"
+      class="absolute left-1 flex h-6 w-6 items-center justify-center rounded-full bg-white shadow-md transition-transform duration-[var(--theme-transition-duration)] ease-in-out"
       class:translate-x-8={$theme === 'girl'}
     >
       {#if $theme === 'boy'}

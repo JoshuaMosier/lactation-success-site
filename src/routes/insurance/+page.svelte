@@ -179,10 +179,10 @@
           Now that you understand your coverage options, schedule your consultation or reach out with any questions. I'm here to help you navigate your insurance benefits and provide the support you need.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 bg-white text-lg font-medium rounded-full text-theme-900 hover:bg-theme-50 transition-colors duration-200">
+          <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 bg-white text-lg font-medium rounded-full text-theme-900 hover:bg-theme-50 transition-colors duration-300">
             Schedule an Appointment
           </a>
-          <a href="/about" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-theme-900 transition-colors duration-200">
+          <a href="/about" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-theme-900 transition-colors duration-300">
             Contact Me
           </a>
         </div>

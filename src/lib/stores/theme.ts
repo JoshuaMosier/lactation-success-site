@@ -35,7 +35,7 @@ export function toggleTheme() {
     // Add completion class after transition ends
     setTimeout(() => {
       document.documentElement.classList.add('theme-transition-complete');
-    }, 350); // Slightly longer than transition duration
+    }, 350); // 50ms buffer after the 300ms transition
     
     // Force a browser repaint to apply all changes at once
     window.requestAnimationFrame(() => {

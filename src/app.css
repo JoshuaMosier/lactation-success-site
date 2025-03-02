@@ -23,6 +23,10 @@
     /* Computed colors */
     --color-primary-50: rgb(var(--color-primary-50-rgb));
     --color-primary-100: rgb(var(--color-primary-100-rgb));
+    
+    /* Make sure these are available for gradients */
+    --tw-gradient-from-color: var(--color-primary-50);
+    --tw-gradient-to-color: white;
   }
 
   [data-theme='girl'] {
@@ -37,6 +41,10 @@
     --color-primary-700: theme('colors.girl.700');
     --color-primary-800: theme('colors.girl.800');
     --color-primary-900: theme('colors.girl.900');
+    
+    /* Update gradient colors for girl theme */
+    --tw-gradient-from-color: var(--color-primary-50);
+    --tw-gradient-to-color: white;
   }
 
   html {
@@ -70,12 +78,20 @@
   }
   
   /* Only apply transitions to color properties */
-  [class*="bg-theme"], [class*="text-theme"], [class*="border-theme"],
-  [class*="bg-"], [class*="text-"], [class*="border-"] {
-    transition-property: background-color, border-color, color, fill, stroke;
+  [class*="bg-theme"], [class*="text-theme"], [class*="border-theme"] {
+    transition-property: background-color, border-color, color;
     transition-duration: var(--theme-transition-duration);
     transition-timing-function: var(--theme-transition-timing);
     transition-delay: 0ms; /* Ensure no delay */
+    will-change: background-color, border-color, color;
+  }
+
+  /* Add specific transition for transform and box-shadow */
+  [class*="hover:shadow"], [class*="hover:translate"] {
+    transition-property: transform, box-shadow;
+    transition-duration: var(--theme-transition-duration);
+    transition-timing-function: var(--theme-transition-timing);
+    will-change: transform, box-shadow;
   }
   
   /* Disable transitions for users who prefer reduced motion */
