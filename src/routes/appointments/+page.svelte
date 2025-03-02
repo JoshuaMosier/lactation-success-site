@@ -1,15 +1,85 @@
+<script context="module" lang="ts">
+  // Declare Leaflet types
+  declare const L: {
+    map: (id: string) => any;
+    tileLayer: (url: string, options: any) => any;
+    marker: (coords: [number, number]) => any;
+    circle: (coords: [number, number], options: any) => any;
+  };
+</script>
+
 <script lang="ts">
   // Add expanding section functionality
   let isExpanded = false;
+  let isServiceAreaExpanded = false;
 
   function toggleExpand() {
     isExpanded = !isExpanded;
+  }
+
+  function toggleServiceArea() {
+    isServiceAreaExpanded = !isServiceAreaExpanded;
+  }
+
+  // Map initialization
+  import { onMount } from 'svelte';
+  
+  let map: any;
+  
+  function initializeMap() {
+    if (map) {
+      map.remove();
+    }
+    
+    // Falls Church, VA coordinates
+    const fallsChurch: [number, number] = [38.882334, -77.171091];
+    
+    // Create the map centered on Falls Church
+    map = L.map('map').setView(fallsChurch, 9);
+    
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+    
+    // Add a marker for Falls Church
+    L.marker(fallsChurch)
+      .bindPopup('Falls Church, VA - Service Area Center')
+      .addTo(map);
+    
+    // Add a 25-mile radius circle (converted to meters)
+    const radius = 25 * 1609.34; // Convert miles to meters
+    L.circle(fallsChurch, {
+      color: '#1e3a8a', // blue-900
+      fillColor: '#1e3a8a',
+      fillOpacity: 0.1,
+      weight: 2,
+      radius: radius
+    }).addTo(map);
+  }
+
+  onMount(() => {
+    // Cleanup on component destruction
+    return () => {
+      if (map) {
+        map.remove();
+      }
+    };
+  });
+
+  // Watch for changes in isServiceAreaExpanded
+  $: if (isServiceAreaExpanded) {
+    // Need to wait for the DOM to update
+    setTimeout(initializeMap, 0);
   }
 </script>
 
 <svelte:head>
   <title>Schedule an Appointment - Lactation Success LLC</title>
   <meta name="description" content="Schedule a lactation consultation with Carolyn Mosier APRN, IBCLC, RLC. Offering in-home visits and telehealth appointments in Northern Virginia." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </svelte:head>
 
 <!-- Header -->
@@ -28,6 +98,35 @@
 <section class="py-16 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto">
+      <!-- Service Area Map -->
+      <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-200">
+        <button
+          class="w-full text-left focus:outline-none"
+          on:click={toggleServiceArea}
+        >
+          <div class="flex items-center justify-between">
+            <h2 class="text-3xl font-serif text-blue-900">Service Areas</h2>
+            <span class="ml-6 flex-shrink-0">
+              {#if isServiceAreaExpanded}
+                <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                </svg>
+              {:else}
+                <svg class="h-6 w-6 text-blue-900" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                </svg>
+              {/if}
+            </span>
+          </div>
+        </button>
+        {#if isServiceAreaExpanded}
+          <div class="mt-6">
+            <p class="text-gray-600 mb-6">I provide in-home consultations within approximately 25 miles of Falls Church, Virginia. Telehealth consultations are available throughout Northern Virginia.</p>
+            <div class="relative w-full h-[400px] rounded-lg overflow-hidden" id="map"></div>
+          </div>
+        {/if}
+      </div>
+
       <!-- Expandable What to Expect Section -->
       <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8 mb-12 hover:shadow-xl transition-shadow duration-200">
         <button
@@ -63,6 +162,15 @@
             </ul>
           </div>
         {/if}
+      </div>
+
+      <!-- Section Break -->
+      <div class="border-t border-blue-100 my-16"></div>
+
+      <!-- Scheduling Steps Header -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-serif text-blue-900">How to Schedule Your Appointment</h2>
+        <p class="mt-4 text-lg text-gray-600">Follow these simple steps to book your consultation</p>
       </div>
 
       <!-- Scheduling Steps -->
@@ -189,9 +297,24 @@
               <p class="text-gray-800 mb-6">
                 Contact me to schedule your appointment or if you have any questions about the process.
               </p>
-              <p class="text-gray-600">Hours of operation: Monday - Friday, 9am - 5pm</p>
-              <p class="text-gray-600">Telehealth consultations also available weekends as needed</p>
-              <br>
+
+              <!-- Availability Info -->
+              <div class="bg-blue-50 rounded-lg p-6 mb-8">
+                <h4 class="text-lg font-serif text-blue-800 mb-4">Availability</h4>
+                <div class="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 class="font-medium text-blue-900 mb-2">In-Home Visits</h5>
+                    <p class="text-gray-700">Monday - Friday</p>
+                    <p class="text-gray-700">9:00 AM - 5:00 PM</p>
+                  </div>
+                  <div>
+                    <h5 class="font-medium text-blue-900 mb-2">Telehealth Consultations</h5>
+                    <p class="text-gray-700">Monday - Friday: Regular hours</p>
+                    <p class="text-gray-700">Weekends: Available as needed</p>
+                  </div>
+                </div>
+              </div>
+
               <!-- Contact Information -->
               <div class="mb-8 space-y-4 max-w-full">
                 <div class="flex items-start sm:items-center text-gray-700">
