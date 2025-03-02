@@ -68,12 +68,12 @@
       <!-- Scheduling Steps -->
       <div class="space-y-8">
         <!-- Step 1 -->
-        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8">
-          <div class="flex items-start">
-            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
+        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-4 sm:p-8">
+          <div class="flex flex-col sm:flex-row sm:items-start">
+            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold mb-4 sm:mb-0">
               1
             </div>
-            <div class="ml-4">
+            <div class="sm:ml-4 w-full">
               <h3 class="text-2xl font-serif text-blue-900 mb-4">Review Insurance Coverage</h3>
               <p class="text-gray-600 mb-4">
                 Most insurance plans cover 100% of lactation visits under the Affordable Care Act. 
@@ -92,12 +92,12 @@
         </div>
 
         <!-- Step 2 -->
-        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8">
-          <div class="flex items-start">
-            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
+        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-4 sm:p-8">
+          <div class="flex flex-col sm:flex-row sm:items-start">
+            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold mb-4 sm:mb-0">
               2
             </div>
-            <div class="ml-4">
+            <div class="sm:ml-4 w-full">
               <h3 class="text-2xl font-serif text-blue-900 mb-4">Choose Your Payment Method</h3>
               
               <div class="grid md:grid-cols-2 gap-8">
@@ -179,32 +179,32 @@
         </div>
 
         <!-- Step 3 -->
-        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-8">
-          <div class="flex items-start">
-            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
+        <div class="bg-white rounded-2xl shadow-lg border border-blue-100 p-4 sm:p-8">
+          <div class="flex flex-col sm:flex-row sm:items-start">
+            <div class="flex-shrink-0 bg-blue-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold mb-4 sm:mb-0">
               3
             </div>
-            <div class="ml-4">
+            <div class="sm:ml-4 w-full">
               <h3 class="text-2xl font-serif text-blue-900 mb-4">Schedule Your Appointment</h3>
               <p class="text-gray-800 mb-6">
                 Contact me to schedule your appointment or if you have any questions about the process.
               </p>
               <p class="text-gray-600">Hours of operation: Monday - Friday, 9am - 5pm</p>
-              <p class="text-gray-600">Telehleath consultations also available weekends as needed</p>
+              <p class="text-gray-600">Telehealth consultations also available weekends as needed</p>
               <br>
               <!-- Contact Information -->
-              <div class="mb-8 space-y-4">
-                <div class="flex items-center text-gray-700">
-                  <svg class="h-5 w-5 text-blue-900 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="mb-8 space-y-4 max-w-full">
+                <div class="flex items-start sm:items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  <span class="font-medium">(703)-599-9180</span>
+                  <span class="font-medium break-words">(703)-599-9180</span>
                 </div>
-                <div class="flex items-center text-gray-700">
-                  <svg class="h-5 w-5 text-blue-900 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex items-start sm:items-center text-gray-700">
+                  <svg class="h-5 w-5 text-blue-900 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span class="font-medium">carolyn.mosier@lactationsuccess.com</span>
+                  <span class="font-medium break-words">carolyn.mosier@lactationsuccess.com</span>
                 </div>
               </div>
 
