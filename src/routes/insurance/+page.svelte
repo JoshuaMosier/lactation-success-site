@@ -135,15 +135,57 @@
         </p>
       </div>
 
+      <!-- Self-Pay Options -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-12">
+        <h2 class="text-3xl font-serif text-gray-900 mb-6">Self-Pay Options</h2>
+        <p class="text-lg text-gray-600 mb-8">
+          If you prefer to self-pay or your insurance is not currently accepted, we offer competitive rates for our services:
+        </p>
+        <div class="grid md:grid-cols-2 gap-4 mb-6">
+          <div class="bg-blue-50 p-6 rounded-lg">
+            <h5 class="font-medium text-xl text-blue-900 mb-2">Initial In-Home Visit</h5>
+            <p class="text-gray-700">$235 (1.5-2 hours)</p>
+          </div>
+          <div class="bg-blue-50 p-6 rounded-lg">
+            <h5 class="font-medium text-xl text-blue-900 mb-2">Follow-up In-Home Visit</h5>
+            <p class="text-gray-700">$200</p>
+          </div>
+          <div class="bg-blue-50 p-6 rounded-lg">
+            <h5 class="font-medium text-xl text-blue-900 mb-2">Multiples Initial Visit</h5>
+            <p class="text-gray-700">$330 (1.5-2 hours)</p>
+          </div>
+          <div class="bg-blue-50 p-6 rounded-lg">
+            <h5 class="font-medium text-xl text-blue-900 mb-2">Multiples Follow-up Visit</h5>
+            <p class="text-gray-700">$250</p>
+          </div>
+          <div class="bg-blue-50 p-6 rounded-lg">
+            <h5 class="font-medium text-xl text-blue-900 mb-2">Telehealth Visit</h5>
+            <p class="text-gray-700">$200 (1 hour)</p>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg text-gray-700">
+          <ul class="space-y-2">
+            <li>• No additional charge for travel to your home</li>
+            <li>• Payment accepted via Cash, Venmo, PayPal, or credit card</li>
+            <li class="text-sm italic">• A Superbill will be provided for insurance reimbursement if needed</li>
+          </ul>
+        </div>
+      </div>
+
       <!-- CTA -->
       <div class="bg-gradient-to-r from-blue-900 to-blue-800 rounded-2xl p-12 text-center text-white">
-        <h2 class="text-3xl font-serif mb-6">Have Questions?</h2>
+        <h2 class="text-3xl font-serif mb-6">Ready to Get Started?</h2>
         <p class="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-          Contact me to learn more about insurance coverage or to schedule a consultation. I'm here to help you navigate your insurance benefits and provide the support you need.
+          Now that you understand your coverage options, schedule your consultation or reach out with any questions. I'm here to help you navigate your insurance benefits and provide the support you need.
         </p>
-        <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-blue-900 transition-colors duration-200">
-          Contact Me
-        </a>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 bg-white text-lg font-medium rounded-full text-blue-900 hover:bg-blue-50 transition-colors duration-200">
+            Schedule an Appointment
+          </a>
+          <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-blue-900 transition-colors duration-200">
+            Contact Me
+          </a>
+        </div>
       </div>
     </div>
   </div>
