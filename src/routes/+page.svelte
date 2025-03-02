@@ -118,6 +118,54 @@
   </div>
 </section>
 
+<!-- Testimonials Section -->
+<section class="py-20 bg-gradient-to-b from-white to-blue-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-serif text-blue-900 sm:text-4xl">What Mothers Say</h2>
+      <p class="mt-4 text-xl text-gray-600">Real experiences from mothers I've helped</p>
+    </div>
+
+    <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
+      <!-- Testimonial 1 -->
+      <div class="bg-white rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300 relative">
+        <div class="absolute -top-4 left-8 text-blue-700">
+          <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+          </svg>
+        </div>
+        <blockquote class="mt-4">
+          <p class="text-lg text-gray-600 italic">Carolyn was quick to respond to my breastfeeding concerns following mastitis. She offered comprehensive advice and followed up to make sure we were back on track. Her help and knowledge are invaluable!</p>
+          <footer class="mt-6">
+            <p class="text-blue-900 font-medium flex items-center gap-2">
+              <span class="text-blue-400">—</span>
+              <span class="font-serif text-lg">Maria M.</span>
+            </p>
+          </footer>
+        </blockquote>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white rounded-xl p-8 shadow-soft hover:shadow-lg transition-all duration-300 relative">
+        <div class="absolute -top-4 left-8 text-blue-700">
+          <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+          </svg>
+        </div>
+        <blockquote class="mt-4">
+          <p class="text-lg text-gray-600 italic">I was just producing enough milk to feed my son after he was born, it was a struggle. Then I experienced a severe allergic reaction when he was 3 months old. Due to the stress and medication my supply dropped dramatically. I was at a loss, feeling like I failed my son. With Carolyn's knowledge, tips and encouragement she not only brought back my supply but also my confidence during my lactation journey.</p>
+          <footer class="mt-6">
+            <p class="text-blue-900 font-medium flex items-center gap-2">
+              <span class="text-blue-400">—</span>
+              <span class="font-serif text-lg">Ellen D.</span>
+            </p>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CTA Section -->
 <section class="py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
