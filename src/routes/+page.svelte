@@ -146,7 +146,7 @@
 </section>
 
 <!-- Testimonials Section -->
-<section class="py-20 bg-gradient-to-b from-white to-theme-50">
+<section class="py-20 bg-gradient-to-b from-white to-theme-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h2 class="text-3xl font-serif text-theme-900 sm:text-4xl">What Mothers Say</h2>
