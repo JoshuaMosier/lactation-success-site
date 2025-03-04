@@ -19,7 +19,7 @@ export default {
         },
         // Girl theme colors
         girl: {
-          50: '#fcf2f7',
+          50: '#fffafc',
           100: '#f9e6ee',
           200: '#f4d2e1',
           300: '#eeafc9',
