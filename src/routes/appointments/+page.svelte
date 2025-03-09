@@ -209,42 +209,85 @@
               <h3 class="text-2xl font-serif text-theme-900 mb-4">Choose Your Payment Method</h3>
               
               <div class="grid md:grid-cols-2 gap-8">
-                <!-- Insurance Option -->
+                <!-- Insurance Options -->
                 <div>
                   <h4 class="text-xl text-theme-800 mb-2">Insurance Coverage</h4>
-                  <p class="text-gray-600 mb-4">
-                    If your insurance is covered by The Lactation Network (TLN), you can start the verification process immediately, and they'll handle your claims.
-                  </p>
-                  <!-- Insurance Logos -->
-                  <div class="flex flex-wrap items-center justify-center gap-4 mb-6 bg-gray-50 p-6 rounded-lg">
-                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
+                  
+                  <!-- TLN Section -->
+                  <div class="mb-6">
+                    <div class="flex items-center gap-2 mb-2">
+                      <span class="font-medium">The Lactation Network (TLN)</span>
                     </div>
-                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/blue-cross.png" alt="blue Cross logo" class="max-h-8 max-w-12 object-contain" />
+                    <p class="text-gray-600 text-sm mb-4">
+                      Many insurance plans cover 100% of unlimited visits through TLN.
+                    </p>
+                    <!-- Insurance Logos -->
+                    <div class="flex flex-wrap items-center gap-2 mb-4 bg-gray-50 p-3 rounded-lg">
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
                     </div>
-                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/blue-shield.png" alt="blue Shield logo" class="max-h-8 max-w-12 object-contain" />
-                    </div>
-                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-12 object-contain" />
-                    </div>
-                    <div class="w-20 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                      <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-8 max-w-12 object-contain" />
+                    <div class="flex justify-center">
+                      <a 
+                        href="https://go.lactationnetwork.com/LactationSuccessLLC"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
+                      >
+                        <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                        </span>
+                        <span class="flex items-center gap-2">
+                          Verify Coverage through TLN
+                        </span>
+                      </a>
                     </div>
                   </div>
-                  <div class="flex justify-center">
-                    <a 
-                      href="https://go.lactationnetwork.com/LactationSuccessLLC"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="inline-block bg-theme-700 text-white px-6 py-3 rounded-full hover:bg-theme-800 transition-colors duration-300"
-                    >
-                      Verify Insurance with TLN
-                    </a>
+
+                  <!-- Wildflower Section -->
+                  <div class="pt-4 border-t border-gray-200">
+                    <div class="flex items-center gap-2 mb-2">
+                      <span class="font-medium">Wildflower Health (Cigna)</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">
+                      Cigna members can verify coverage through Wildflower Health.
+                    </p>
+                    <div class="flex items-center gap-2 mb-4 bg-gray-50 p-3 rounded-lg">
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/cigna.png" alt="Cigna logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                      <span class="text-gray-700 text-sm">Cigna Insurance Plans</span>
+                    </div>
+                    <div class="flex justify-center">
+                      <a 
+                        href="https://portal.wildflowerhealth.net/affiliate-care/5dbfbee"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
+                      >
+                        <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                        </span>
+                        <span class="flex items-center gap-2">
+                          Verify Cigna Coverage through Wildflower
+                        </span>
+                      </a>
+                    </div>
                   </div>
-                  <br>
-                  <p class="text-gray-600 mb-4">If your insurance is not listed above, you will pay upfront and a Superbill (receipt) will be provided for insurance reimbursement.</p>
+
+                  <p class="text-gray-600 text-sm mt-4">If your insurance is not listed above, you will pay upfront and a Superbill (receipt) will be provided for insurance reimbursement.</p>
                 </div>
 
                 <!-- Self-Pay Option -->
