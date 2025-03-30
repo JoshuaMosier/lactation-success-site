@@ -28,9 +28,9 @@
         <div class="bg-white rounded-xl shadow-lg p-8 border border-theme-100 hover:shadow-xl transition-shadow duration-300">
           <!-- Profile Section -->
           <div class="text-center mb-8 pb-6 border-b border-theme-100">
-            <div class="w-48 h-48 rounded-xl overflow-hidden border-4 border-white shadow-lg mb-6 mx-auto">
+            <div class="w-72 h-72 rounded-xl overflow-hidden border-4 border-white shadow-lg mb-6 mx-auto">
               <img
-                src="/images/mirror-crop.jpg"
+                src="/images/about-me.jpg"
                 alt="Carolyn Mosier, IBCLC"
                 class="w-full h-full object-cover"
               />
@@ -47,7 +47,7 @@
 
           <h2 class="text-4xl font-serif text-theme-700 mb-8 pb-4 border-b border-theme-100">Get in Touch</h2>
           
-          <dl class="space-y-8">
+          <dl class="space-y-1">
             <div>
               <dt class="sr-only">Phone</dt>
               <dd class="flex items-center p-3 hover:bg-theme-50 rounded-lg transition-colors duration-300">
