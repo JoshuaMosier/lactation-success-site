@@ -202,7 +202,7 @@
         <div class="mt-8">
           <h3 class="text-xl font-medium text-gray-900 mb-4">Tricare Plans:</h3>
           <p class="mt-8 text-lg text-gray-600 bg-theme-50 p-4 rounded-lg border border-theme-100">
-            If you have Tricare, please call me to schedule an appointment. I am a certified Tricare provider.
+            If you have Tricare, please call me to schedule an appointment. I am an in-network Tricare provider.
           </p>
           </div>  
       </div>
