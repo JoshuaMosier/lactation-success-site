@@ -223,20 +223,23 @@
                     </p>
                     <!-- Insurance Logos -->
                     <div class="flex flex-wrap items-center gap-2 mb-4 bg-gray-50 p-3 rounded-lg">
-                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      <!-- <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
                         <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
-                      </div>
-                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                      </div> -->
+                      <!-- <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
                         <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-12 object-contain" />
                       </div>
                       <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
                         <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
+                      </div> -->
+                      <div class="w-16 h-12 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/aetna.png" alt="Aetna logo" class="max-h-10 max-w-14 object-contain" />
                       </div>
-                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                        <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-8 max-w-12 object-contain" />
+                      <div class="w-16 h-12 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/optum.png" alt="VA CCN logo" class="max-h-10 max-w-14 object-contain" />
                       </div>
-                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                        <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-8 max-w-12 object-contain" />
+                      <div class="w-16 h-12 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/uhc.png" alt="United Healthcare logo" class="max-h-10 max-w-14 object-contain" />
                       </div>
                     </div>
                     <div class="flex justify-center">
