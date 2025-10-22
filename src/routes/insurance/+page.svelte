@@ -27,7 +27,7 @@
       <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-12">
         <h2 class="text-3xl font-serif text-gray-900 mb-6">Insurance Coverage Partners</h2>
         
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- TLN Section -->
           <div class="flex flex-col h-full">
             <div class="mb-4">
@@ -79,6 +79,41 @@
                     <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   Verify Cigna Coverage through Wildflower
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- CareFirst Section -->
+          <div class="flex flex-col h-full">
+            <div class="mb-4">
+              <div class="flex items-center gap-4 mb-2">
+                <div class="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div class="flex gap-1">
+                    <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="h-8 object-contain" />
+                    <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="h-8 object-contain" />
+                  </div>
+                </div>
+                <h3 class="text-xl font-serif text-gray-900">CareFirst</h3>
+              </div>
+              <p class="text-gray-600">
+                CareFirst Blue Cross Blue Shield members can contact me directly to schedule an appointment.
+              </p>
+            </div>
+            <div class="text-center mt-auto">
+              <a href="tel:+17035999180"
+                class="group relative inline-flex w-full flex-col items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
+                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                </span>
+                <span class="flex flex-col items-center gap-1">
+                  <span class="flex items-center gap-2">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    Call or Text
+                  </span>
+                  <span>(703) 599-9180</span>
                 </span>
               </a>
             </div>
@@ -198,6 +233,32 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <!-- CareFirst Plans -->
+        <div class="mt-8">
+          <h3 class="text-xl font-medium text-gray-900 mb-4">CareFirst Plans:</h3>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="flex items-center bg-theme-50 rounded-lg p-4">
+              <span class="text-theme-900 mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+              </span>
+              <div class="flex items-center">
+                <div class="w-16 h-11 flex items-center justify-center bg-white rounded-md shadow-sm mr-3">
+                  <div class="flex gap-1">
+                    <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 object-contain" />
+                    <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 object-contain" />
+                  </div>
+                </div>
+                <span class="text-gray-700 font-medium">CareFirst Blue Cross Blue Shield</span>
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 text-gray-600 bg-theme-50 p-4 rounded-lg border border-theme-100">
+            If you have CareFirst Blue Cross Blue Shield, please call or text me at (703) 599-9180 to schedule an appointment.
+          </p>
         </div>
 
         <div class="mt-8">

@@ -223,15 +223,9 @@
                     </p>
                     <!-- Insurance Logos -->
                     <div class="flex flex-wrap items-center gap-2 mb-4 bg-gray-50 p-3 rounded-lg">
-                      <!-- <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                        <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
-                      </div> -->
-                      <!-- <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                        <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-12 object-contain" />
-                      </div>
                       <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
-                        <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
-                      </div> -->
+                        <img src="/images/insurance-logos/anthem.png" alt="Anthem logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
                       <div class="w-16 h-12 flex items-center justify-center bg-white rounded-md shadow-sm">
                         <img src="/images/insurance-logos/aetna.png" alt="Aetna logo" class="max-h-10 max-w-14 object-contain" />
                       </div>
@@ -288,6 +282,38 @@
                         </span>
                       </a>
                     </div>
+                  </div>
+
+                  <!-- CareFirst Section -->
+                  <div class="pt-4 border-t border-gray-200">
+                    <div class="flex items-center gap-2 mb-2">
+                      <span class="font-medium">CareFirst</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">
+                      CareFirst Blue Cross Blue Shield members can contact me directly to schedule an appointment.
+                    </p>
+                    <div class="flex items-center gap-2 mb-4 bg-gray-50 p-3 rounded-lg">
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/blue-cross.png" alt="Blue Cross logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                      <div class="w-14 h-10 flex items-center justify-center bg-white rounded-md shadow-sm">
+                        <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
+                      </div>
+                    </div>
+                    <a 
+                      href="tel:+17035999180"
+                      class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
+                    >
+                      <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                      </span>
+                      <span class="flex items-center gap-2">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        Call or Text (703) 599-9180
+                      </span>
+                    </a>
                     <div class="border-t border-gray-200 my-4"></div>
                   <div class="flex items-center gap-2 mb-2 mt-4">
                     <span class="font-medium">Tricare</span>
