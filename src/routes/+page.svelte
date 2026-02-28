@@ -71,9 +71,9 @@
 
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
-          <a href="/appointments" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 md:py-4 md:text-xl md:px-10 transform hover:-translate-y-0.5 transition-[transform,background-color,box-shadow] duration-[var(--theme-transition-duration)] shadow-soft hover:shadow-lg">
-            Schedule an Appointment
-          </a>
+          <span class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-gray-400 cursor-not-allowed md:py-4 md:text-xl md:px-10 shadow-soft">
+            Currently Not Accepting Appointments
+          </span>
         </div>
       </div>
     </div>
@@ -199,13 +199,8 @@
     <div class="bg-theme-50 rounded-2xl shadow-soft overflow-hidden border border-theme-100">
       <div class="px-8 py-16 sm:px-16 sm:py-20">
         <div class="text-center">
-          <h2 class="text-3xl font-serif text-theme-900 sm:text-4xl">Ready to start your journey?</h2>
-          <p class="mt-4 text-xl text-theme-700">Schedule a consultation today and take the first step toward a confident feeding experience.</p>
-          <div class="mt-10">
-            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 transform hover:-translate-y-0.5 transition-[transform,background-color,box-shadow] duration-[var(--theme-transition-duration)] shadow-soft hover:shadow-lg">
-              Schedule an Appointment
-            </a>
-          </div>
+          <h2 class="text-3xl font-serif text-theme-900 sm:text-4xl">Thank you for your interest!</h2>
+          <p class="mt-4 text-xl text-theme-700">We are currently not accepting new appointments. Please check back soon for updates.</p>
         </div>
       </div>
     </div>

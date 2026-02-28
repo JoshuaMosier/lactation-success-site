@@ -40,18 +40,10 @@
               </p>
             </div>
             <div class="text-center mt-auto">
-              <a href="https://go.lactationnetwork.com/LactationSuccessLLC" target="_blank" rel="noopener noreferrer" 
-                class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
-                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                </span>
-                <span class="flex items-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                  </svg>
-                  Verify Coverage through TLN
-                </span>
-              </a>
+              <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-6 py-3 font-medium text-white cursor-not-allowed">
+                Verify Coverage <br>
+                through TLN
+              </span>
             </div>
           </div>
 
@@ -69,18 +61,9 @@
               </p>
             </div>
             <div class="text-center mt-auto">
-              <a href="https://portal.wildflowerhealth.net/affiliate-care/5dbfbee" target="_blank" rel="noopener noreferrer" 
-                class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
-                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                </span>
-                <span class="flex items-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                  </svg>
-                  Verify Cigna Coverage through Wildflower
-                </span>
-              </a>
+              <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-6 py-3 font-medium text-white cursor-not-allowed">
+                Verify Cigna Coverage through Wildflower
+              </span>
             </div>
           </div>
 
@@ -101,21 +84,9 @@
               </p>
             </div>
             <div class="text-center mt-auto">
-              <a href="tel:+17035999180"
-                class="group relative inline-flex w-full flex-col items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
-                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                </span>
-                <span class="flex flex-col items-center gap-1">
-                  <span class="flex items-center gap-2">
-                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    Call or Text
-                  </span>
-                  <span>(703) 599-9180</span>
-                </span>
-              </a>
+              <span class="inline-flex w-full flex-col items-center justify-center rounded-full bg-gray-400 px-6 py-3 font-medium text-white cursor-not-allowed">
+                Not Currently Scheduling
+              </span>
             </div>
           </div>
         </div>
@@ -308,14 +279,11 @@
 
       <!-- CTA -->
       <div class="bg-theme-900 rounded-2xl p-12 text-center text-white">
-        <h2 class="text-3xl font-serif mb-6">Ready to Get Started?</h2>
+        <h2 class="text-3xl font-serif mb-6">Thank You for Your Interest</h2>
         <p class="text-lg text-theme-100 mb-8 max-w-2xl mx-auto">
-          Now that you understand your coverage options, schedule your consultation or reach out with any questions. I'm here to help you navigate your insurance benefits and provide the support you need.
+          We are currently not accepting new appointments. Please check back soon for updates.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 bg-white text-lg font-medium rounded-full text-theme-900 hover:bg-theme-50 transition-colors duration-300">
-            Schedule an Appointment
-          </a>
           <a href="/about" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-theme-900 transition-colors duration-300">
             Contact Me
           </a>

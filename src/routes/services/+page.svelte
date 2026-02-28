@@ -150,9 +150,9 @@
             </div>
 
             <div class="mt-10 text-center">
-              <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-700 hover:bg-theme-800 transform hover:-translate-y-0.5 transition-all duration-300 shadow-soft hover:shadow-lg">
-                Schedule an Appointment
-              </a>
+              <span class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-gray-400 cursor-not-allowed shadow-soft">
+                Currently Not Accepting Appointments
+              </span>
             </div>
           </div>
         </div>

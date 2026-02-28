@@ -94,6 +94,23 @@
   </div>
 </section>
 
+<!-- Pause Notice -->
+<section class="pt-8 pb-0 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-amber-50 border-2 border-amber-300 rounded-2xl p-8 text-center">
+        <svg class="h-12 w-12 text-amber-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.072 16.5c-.77.833.192 2.5 1.732 2.5z" />
+        </svg>
+        <h2 class="text-2xl font-serif text-amber-800 mb-3">Currently Not Accepting New Appointments</h2>
+        <p class="text-amber-700 text-lg">
+          Lactation Success is currently not accepting new appointments. Please check back soon for updates.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- What to Expect Section -->
 <section class="py-16 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -237,19 +254,9 @@
                       </div>
                     </div>
                     <div class="flex justify-center">
-                      <a 
-                        href="https://go.lactationnetwork.com/LactationSuccessLLC"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
-                      >
-                        <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                        </span>
-                        <span class="flex items-center gap-2">
-                          Verify Coverage through TLN
-                        </span>
-                      </a>
+                      <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-4 py-2 text-sm font-medium text-white cursor-not-allowed">
+                        Verify Coverage through TLN
+                      </span>
                     </div>
                   </div>
 
@@ -268,19 +275,9 @@
                       <span class="text-gray-700 text-sm">Cigna Insurance Plans</span>
                     </div>
                     <div class="flex justify-center">
-                      <a 
-                        href="https://portal.wildflowerhealth.net/affiliate-care/5dbfbee"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
-                      >
-                        <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                        </span>
-                        <span class="flex items-center gap-2">
-                          Verify Cigna Coverage through Wildflower
-                        </span>
-                      </a>
+                      <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-4 py-2 text-sm font-medium text-white cursor-not-allowed">
+                        Verify Cigna Coverage through Wildflower
+                      </span>
                     </div>
                   </div>
 
@@ -300,20 +297,9 @@
                         <img src="/images/insurance-logos/blue-shield.png" alt="Blue Shield logo" class="max-h-8 max-w-12 object-contain" />
                       </div>
                     </div>
-                    <a 
-                      href="tel:+17035999180"
-                      class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
-                    >
-                      <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                      </span>
-                      <span class="flex items-center gap-2">
-                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        Call or Text (703) 599-9180
-                      </span>
-                    </a>
+                    <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-4 py-2 text-sm font-medium text-white cursor-not-allowed">
+                      Not Currently Scheduling
+                    </span>
                     <div class="border-t border-gray-200 my-4"></div>
                   <div class="flex items-center gap-2 mb-2 mt-4">
                     <span class="font-medium">Tricare</span>
@@ -321,20 +307,9 @@
                   <p class="text-gray-600 text-sm mb-4">
                     I am an in-network provider for Tricare. Call or text me to schedule an appointment.
                   </p>
-                  <a 
-                  href="tel:+17035999180"
-                  class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800"
-                  >
-                    <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
-                      <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                    </span>
-                    <span class="flex items-center gap-2">
-                      <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                      Call or Text (703) 599-9180
-                    </span>
-                  </a>
+                  <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-4 py-2 text-sm font-medium text-white cursor-not-allowed">
+                    Not Currently Scheduling
+                  </span>
                   </div>
                   <!-- add separator -->
                   <div class="border-t border-gray-200 my-4"></div>
@@ -425,26 +400,22 @@
                 </div>
               </div>
 
-              <!-- Contact Buttons -->
+              <!-- Contact Buttons (Disabled during pause) -->
               <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a 
-                  href="tel:+17035999180"
-                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-theme-900 text-lg font-medium rounded-full text-white hover:bg-theme-800 transition-colors duration-300"
-                >
+                <span class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-gray-400 text-lg font-medium rounded-full text-white cursor-not-allowed">
                   <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                   Call or Text
-                </a>
-                <a 
-                  href="mailto:carolyn.mosier@lactationsuccess.com"
-                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border-2 border-theme-900 text-lg font-medium rounded-full text-theme-900 hover:bg-theme-900 hover:text-white transition-colors duration-300"
+                </span>
+                <span
+                  class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border-2 border-gray-400 text-lg font-medium rounded-full text-gray-400 cursor-not-allowed"
                 >
                   <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   Email Me
-                </a>
+                </span>
               </div>
             </div>
           </div>
