@@ -39,7 +39,8 @@
         {#each navItems as item}
           <a
             href={item.href}
-            class="text-gray-700 hover:text-theme-800 px-4 py-2 text-lg font-medium transition-colors duration-[var(--theme-transition-duration)] hover:bg-theme-50 rounded-md {$page.url.pathname === item.href ? 'text-theme-800 bg-theme-50 font-semibold' : ''}"
+            class="nav-link text-gray-700 hover:text-theme-800 px-4 py-2 text-lg font-medium transition-colors duration-[var(--theme-transition-duration)] hover:bg-theme-50 rounded-md {$page.url.pathname === item.href ? 'text-theme-800 bg-theme-50 font-semibold' : ''}"
+            data-label={item.label}
           >
             {item.label}
           </a>
@@ -112,5 +113,19 @@
     border-bottom: 1px solid rgba(229, 231, 235, 0.5);
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.95);
+  }
+  .nav-link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-link::after {
+    content: attr(data-label);
+    font-weight: 600;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
   }
 </style> 

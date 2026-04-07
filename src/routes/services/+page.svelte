@@ -94,10 +94,6 @@
             </li>
             <li class="flex items-start">
               <span class="text-theme-600 mr-3 mt-1">✔</span>
-              <span>Guidance for premature or medically complex infants</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-theme-600 mr-3 mt-1">✔</span>
               <span>Engorgement  and plugged duct relief</span>
             </li>
             <li class="flex items-start">
@@ -150,9 +146,9 @@
             </div>
 
             <div class="mt-10 text-center">
-              <span class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-gray-400 cursor-not-allowed shadow-soft">
-                Currently Not Accepting Appointments
-              </span>
+              <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-600 hover:bg-theme-700 transition-colors duration-300 shadow-soft">
+                Schedule a Consultation
+              </a>
             </div>
           </div>
         </div>

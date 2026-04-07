@@ -22,7 +22,7 @@
     },
     {
       question: "What areas do you serve?",
-      answer: "I currently cover a 25 mile radius from Falls Church, Virginia. Telehealth consultations are available to families anywhere in the Northern Virginia area."
+      answer: "I offer in-home visits in Northern Virginia within 20 miles of Falls Church. Telehealth services are also available for Northern Virginia families."
     },
     {
       question: "Do you charge for travel?",

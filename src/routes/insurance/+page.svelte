@@ -40,10 +40,13 @@
               </p>
             </div>
             <div class="text-center mt-auto">
-              <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-6 py-3 font-medium text-white cursor-not-allowed">
-                Verify Coverage <br>
-                through TLN
-              </span>
+              <a href="https://go.lactationnetwork.com/LactationSuccessLLC" target="_blank" rel="noopener noreferrer"
+                class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
+                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                </span>
+                <span>Verify Coverage<br>through TLN</span>
+              </a>
             </div>
           </div>
 
@@ -61,9 +64,13 @@
               </p>
             </div>
             <div class="text-center mt-auto">
-              <span class="inline-flex w-full items-center justify-center rounded-full bg-gray-400 px-6 py-3 font-medium text-white cursor-not-allowed">
-                Verify Cigna Coverage through Wildflower
-              </span>
+              <a href="https://portal.wildflowerhealth.net/affiliate-care/5dbfbee" target="_blank" rel="noopener noreferrer"
+                class="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
+                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                </span>
+                <span>Verify Coverage<br>through Wildflower</span>
+              </a>
             </div>
           </div>
 
@@ -84,9 +91,13 @@
               </p>
             </div>
             <div class="text-center mt-auto">
-              <span class="inline-flex w-full flex-col items-center justify-center rounded-full bg-gray-400 px-6 py-3 font-medium text-white cursor-not-allowed">
-                Not Currently Scheduling
-              </span>
+              <a href="tel:+17035999180"
+                class="group relative inline-flex w-full flex-col items-center justify-center overflow-hidden rounded-full bg-theme-700 px-6 py-3 font-medium text-white shadow-md transition duration-300 ease-out hover:bg-theme-800">
+                <span class="absolute inset-0 flex h-full w-full justify-center [transform:translateX(-100%)] group-hover:[transform:translateX(100%)]">
+                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+                </span>
+                <span>Call or Text<br>(703) 599-9180</span>
+              </a>
             </div>
           </div>
         </div>
@@ -271,7 +282,7 @@
         <div class="bg-gray-50 p-6 rounded-lg text-gray-700">
           <ul class="space-y-2">
             <li>• No additional charge for travel to your home</li>
-            <li>• Payment accepted via Cash, Venmo, PayPal, or credit card</li>
+            <li>• Payment accepted via Cash, Venmo, or credit card</li>
             <li class="text-sm italic">• A Superbill will be provided for insurance reimbursement if needed</li>
           </ul>
         </div>
@@ -279,11 +290,14 @@
 
       <!-- CTA -->
       <div class="bg-theme-900 rounded-2xl p-12 text-center text-white">
-        <h2 class="text-3xl font-serif mb-6">Thank You for Your Interest</h2>
+        <h2 class="text-3xl font-serif mb-6">Ready to Get Started?</h2>
         <p class="text-lg text-theme-100 mb-8 max-w-2xl mx-auto">
-          We are currently not accepting new appointments. Please check back soon for updates.
+          Schedule a consultation today and get the lactation support you need.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 bg-white text-lg font-medium rounded-full text-theme-900 hover:bg-theme-50 transition-colors duration-300">
+            Schedule an Appointment
+          </a>
           <a href="/about" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-theme-900 transition-colors duration-300">
             Contact Me
           </a>

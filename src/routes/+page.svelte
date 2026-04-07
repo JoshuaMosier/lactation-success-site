@@ -44,8 +44,8 @@
     
     <div class="text-center">
       <h1 class="text-4xl tracking-tight font-serif sm:text-5xl md:text-6xl">
-        <span class="block text-theme-900">Professional <span class="text-theme-700">in-home </span> and </span>
-        <span class="block text-theme-700 mt-2">telehealth <span class="text-theme-900">breastfeeding support</span></span>
+        <span class="block text-theme-900">Professional <span class="text-theme-700">telehealth</span></span>
+        <span class="block text-theme-900 mt-2">breastfeeding support</span>
         <span class="block text-theme-900 mt-2">for moms and babies</span>
       </h1>
       
@@ -71,9 +71,9 @@
 
       <div class="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
         <div class="rounded-md">
-          <span class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-gray-400 cursor-not-allowed md:py-4 md:text-xl md:px-10 shadow-soft">
-            Currently Not Accepting Appointments
-          </span>
+          <a href="/appointments" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-600 hover:bg-theme-700 transition-colors duration-300 md:py-4 md:text-xl md:px-10 shadow-soft">
+            Schedule a Consultation
+          </a>
         </div>
       </div>
     </div>
@@ -200,7 +200,12 @@
       <div class="px-8 py-16 sm:px-16 sm:py-20">
         <div class="text-center">
           <h2 class="text-3xl font-serif text-theme-900 sm:text-4xl">Thank you for your interest!</h2>
-          <p class="mt-4 text-xl text-theme-700">We are currently not accepting new appointments. Please check back soon for updates.</p>
+          <p class="mt-4 text-xl text-theme-700">Ready to get the support you need? Schedule a consultation today.</p>
+          <div class="mt-8">
+            <a href="/appointments" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-theme-600 hover:bg-theme-700 transition-colors duration-300 shadow-soft">
+              Schedule a Consultation
+            </a>
+          </div>
         </div>
       </div>
     </div>
