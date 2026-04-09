@@ -27,7 +27,7 @@
       <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-12">
         <h2 class="text-3xl font-serif text-gray-900 mb-6">Insurance Coverage Partners</h2>
         
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-2 gap-8">
           <!-- TLN Section -->
           <div class="flex flex-col h-full">
             <div class="mb-4">
@@ -74,7 +74,8 @@
             </div>
           </div>
 
-          <!-- CareFirst Section -->
+          <!-- CareFirst Section (temporarily hidden) -->
+          {#if false}
           <div class="flex flex-col h-full">
             <div class="mb-4">
               <div class="flex items-center gap-4 mb-2">
@@ -100,6 +101,7 @@
               </a>
             </div>
           </div>
+          {/if}
         </div>
       </div>
 
@@ -217,7 +219,8 @@
           </div>
         </div>
 
-        <!-- CareFirst Plans -->
+        <!-- CareFirst Plans (temporarily hidden) -->
+        {#if false}
         <div class="mt-8">
           <h3 class="text-xl font-medium text-gray-900 mb-4">CareFirst Plans:</h3>
           <div class="grid md:grid-cols-2 gap-6">
@@ -242,6 +245,7 @@
             If you have CareFirst Blue Cross Blue Shield, please call or text me at (703) 599-9180 to schedule an appointment.
           </p>
         </div>
+        {/if}
 
         <div class="mt-8">
           <h3 class="text-xl font-medium text-gray-900 mb-4">Tricare Plans:</h3>

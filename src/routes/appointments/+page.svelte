@@ -284,8 +284,9 @@
                     </div>
                   </div>
 
-                  <!-- CareFirst Section -->
+                  <!-- CareFirst Section (temporarily hidden) -->
                   <div class="pt-4 border-t border-gray-200">
+                    {#if false}
                     <div class="flex items-center gap-2 mb-2">
                       <span class="font-medium">CareFirst</span>
                     </div>
@@ -315,6 +316,7 @@
                       </span>
                     </a>
                     <div class="border-t border-gray-200 my-4"></div>
+                    {/if}
                   <div class="flex items-center gap-2 mb-2 mt-4">
                     <span class="font-medium">Tricare</span>
                   </div>
