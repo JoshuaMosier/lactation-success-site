@@ -60,8 +60,6 @@
             <span>APRN</span>
             <span class="text-theme-300">•</span>
             <span>IBCLC</span>
-            <span class="text-theme-300">•</span>
-            <span>RLC</span>
           </div>
           <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
             Helping Northern Virginia area families create successful breastfeeding experiences through expert lactation support.

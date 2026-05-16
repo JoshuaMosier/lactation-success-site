@@ -10,7 +10,7 @@
 
 <svelte:head>
   <title>Lactation Success LLC | Professional Breastfeeding Support</title>
-  <meta name="description" content="Professional telehealth breastfeeding support by Carolyn Mosier APRN, IBCLC, RLC" />
+  <meta name="description" content="Professional telehealth breastfeeding support by Carolyn Mosier APRN, IBCLC" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

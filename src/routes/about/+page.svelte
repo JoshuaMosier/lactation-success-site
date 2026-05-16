@@ -40,8 +40,6 @@
               <span>APRN</span>
               <span class="text-theme-300">•</span>
               <span>IBCLC</span>
-              <span class="text-theme-300">•</span>
-              <span>RLC</span>
             </div>
           </div>
 
